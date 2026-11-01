@@ -1,0 +1,26 @@
+from pathlib import Path
+P=Path(__file__).resolve().parents[1]
+s=['<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560"><defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto-start-reverse"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#1665a8"/></marker></defs><rect width="1100" height="560" fill="#f5f9fd"/><g font-family="Arial,sans-serif" fill="#10324b">']
+def text(x,y,t,size=16):s.append(f'<text x="{x}" y="{y}" font-size="{size}" text-anchor="middle">{t}</text>')
+def box(x,y,w,h,title,lines):
+ s.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="10" fill="white" stroke="#1665a8" stroke-width="2"/>');text(x+w/2,y+27,title,18)
+ for i,t in enumerate(lines):text(x+w/2,y+52+i*21,t,14)
+def line(d,label,x,y):s.append(f'<path d="{d}" fill="none" stroke="#1665a8" stroke-width="2" marker-end="url(#a)"/>');text(x,y,label,13)
+text(550,35,'HYDRA — intégration Main Board V1',25)
+box(20,100,140,95,'PC surface',['Pilotage / vidéo'])
+box(215,100,240,95,'Pi4 + Navigator',['BlueOS / ArduSub','ESC, IMU, BAR30, fuites'])
+box(550,100,220,95,'STM32 Main Board',['UART 3,3 V / SWD / USB','8 GPIO logiques V2'])
+box(875,85,200,75,'Flash SPI2',['W25Q128JVSIQ'])
+box(875,210,200,75,'BME280',['I2C3 / 0x77 / interne'])
+box(215,355,240,100,'Power Board',['5 V vers Main Board','6 à 9 INA226 externes'])
+box(550,355,220,100,'Deux Lumen',['Énergie Power Board','PWM commun Navigator'])
+line('M160,145 H215','Ethernet',187,132)
+line('M455,145 H550','UART J3',502,132)
+line('M770,125 H875','SPI dédié',822,112)
+line('M770,170 H820 V247 H875','I2C interne',824,235)
+line('M455,380 H505 V195 H550','5 V J1 + I2C/ALERT J2',610,245)
+line('M455,405 H550','Énergie Lumen',502,393)
+line('M335,195 V305 H660 V355','PWM Navigator — aucun passage par Main Board',588,295)
+text(550,510,'UART : Main TX → Navigator SERIAL3 RX (3) ; Main RX ← TX (2) ; GND commun (6).',16)
+text(550,538,'Contour PCB provisoire ; interfaces logiques 3,3 V ; aucune entrée 48 V sur Main Board.',15)
+s.append('</g></svg>');(P/'docs/SCHEMA_BLOCS.svg').write_text(''.join(s))

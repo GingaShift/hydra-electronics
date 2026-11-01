@@ -1,0 +1,2687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/5509dcffc0f7/HYDRA_MAIN_V1_OPT/HYDRA_MAIN_V1.kicad_sch</source>
+    <date>2026-10-28T00:44:09+0100</date>
+    <tool>Eeschema 9.0.9-9.0.9~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>HYDRA MAIN BOARD V1 — HYDRA_MAIN_V1</title>
+        <company>HYDRA / Proteus + HydroVinci</company>
+        <rev>A1 COMPACT</rev>
+        <date>2026-10-27</date>
+        <source>HYDRA_MAIN_V1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/">
+      <title_block>
+        <title>HYDRA MAIN BOARD V1 — Power_USB</title>
+        <company>HYDRA / Proteus + HydroVinci</company>
+        <rev>A1 COMPACT</rev>
+        <date>2026-10-27</date>
+        <source>Power_USB.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/">
+      <title_block>
+        <title>HYDRA MAIN BOARD V1 — Peripherals</title>
+        <company>HYDRA / Proteus + HydroVinci</company>
+        <rev>A1 COMPACT</rev>
+        <date>2026-10-27</date>
+        <source>Peripherals.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/">
+      <title_block>
+        <title>HYDRA MAIN BOARD V1 — Interfaces</title>
+        <company>HYDRA / Proteus + HydroVinci</company>
+        <rev>A1 COMPACT</rev>
+        <date>2026-10-27</date>
+        <source>Interfaces.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4f974f2-4ff1-4c9f-a4dc-b0f87079a223</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fba9f8b7-2d38-42d2-a3c5-937a6fad8c7b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2e0fd11-57ff-400d-afd3-33482c278848</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf18f424-a58c-43d0-9632-82bb79e4b700</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4.7u</value>
+      <footprint>HYDRA:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71A475KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR71A475KA73L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45d10bcd-3846-4b8d-a24a-59c5ad15c6bd</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>2.2u</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71A225KE15D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71A225KE15D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fcfe965-8727-4257-8d54-b36a258299c6</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>2.2u</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71A225KE15D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71A225KE15D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbcf0a30-e862-4100-ba32-2312a71e6f54</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5c5c44f-0e6a-4c45-87b0-9efb30274847</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4.7u</value>
+      <footprint>HYDRA:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71A475KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR71A475KA73L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2006889-d8e9-4543-b8d8-8f613ec05eb8</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>14p</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM1885C1H140JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM1885C1H140JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c018b33-1ddf-44bc-9cca-38f016da0c2c</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>14p</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM1885C1H140JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM1885C1H140JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6469b53c-6cdd-4094-b349-70f70db0b1da</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e000aa5-29a1-43a6-b7b7-8a4153050205</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>600R@100MHz</value>
+      <footprint>HYDRA:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">BLM18AG601SN1D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_FerriteBead" description="Ferrite bead"/>
+      <property name="MPN" value="BLM18AG601SN1D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <property name="ki_fp_filters" value="Inductor_* L_* *Ferrite*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e321c52-cfd1-4513-9fea-febdba7c413b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c47ec595-bf8e-451b-acd6-230c96af4c6c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>704861fc-d949-4ae8-a3ab-1f438ca4fb33</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2b6c114-52b5-4aee-bb81-03a1fc8fccd5</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>BOOT</value>
+      <footprint>HYDRA:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="MPN">TL3342F160QG</field>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Footprint">HYDRA:SW_SPST_TL3342</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Switch_SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MPN" value="TL3342F160QG"/>
+      <property name="Manufacturer" value="E-Switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13f4455b-17d1-4d4a-a16c-efda9e386409</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>RESET</value>
+      <footprint>HYDRA:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="MPN">TL3342F160QG</field>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Footprint">HYDRA:SW_SPST_TL3342</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Switch_SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MPN" value="TL3342F160QG"/>
+      <property name="Manufacturer" value="E-Switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08ad775b-caee-4797-b428-b15b2d33f0c6</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>STM32F405RGT6</value>
+      <footprint>HYDRA:LQFP-64_10x10mm_P0.5mm</footprint>
+      <fields>
+        <field name="MPN">STM32F405RGT6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Footprint">HYDRA:LQFP-64_10x10mm_P0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="MCU_ST_STM32F4_STM32F405RGTx" description="STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 51 GPIO, LQFP64"/>
+      <property name="MPN" value="STM32F405RGT6"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="Arm Cortex-M4 STM32F4 STM32F405/415"/>
+      <property name="ki_fp_filters" value="LQFP*10x10mm*P0.5mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4267ccb4-f7e2-4d5b-a355-1ed923a15036</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>8MHz CL10pF</value>
+      <footprint>HYDRA:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="MPN">ECS-80-10-33-CHN-TR</field>
+        <field name="Manufacturer">ECS</field>
+        <field name="Footprint">HYDRA:Crystal_SMD_3225-4Pin_3.2x2.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="MPN" value="ECS-80-10-33-CHN-TR"/>
+      <property name="Manufacturer" value="ECS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HYDRA_MAIN_V1.kicad_sch"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <property name="ki_fp_filters" value="Crystal*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abab09e0-6479-4850-8b78-bc6237115165</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>4.7u</value>
+      <footprint>HYDRA:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71A475KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR71A475KA73L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>a081c0e3-b181-464e-8029-18c0ecb38597</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>4.7u</value>
+      <footprint>HYDRA:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71A475KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR71A475KA73L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>5115fdca-0966-426c-9657-2d5bf68d523d</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>fa32ead4-eafd-4436-a1fb-ee03d8741915</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>a70655cf-c673-48af-a287-7d9ef2b9f535</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SS14</value>
+      <footprint>HYDRA:D_SMA</footprint>
+      <fields>
+        <field name="MPN">SS14-E3/61T</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Footprint">HYDRA:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_D_Schottky" description="Schottky diode"/>
+      <property name="MPN" value="SS14-E3/61T"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>6c25e0bd-dc9b-4451-be07-d2fd0d7c63a2</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SS14</value>
+      <footprint>HYDRA:D_SMA</footprint>
+      <fields>
+        <field name="MPN">SS14-E3/61T</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Footprint">HYDRA:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_D_Schottky" description="Schottky diode"/>
+      <property name="MPN" value="SS14-E3/61T"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>9a7c0c7c-5ced-4618-9787-0e0047c63051</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>0.50A hold</value>
+      <footprint>HYDRA:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="MPN">1206L050/15YR</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Footprint">HYDRA:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="MPN" value="1206L050/15YR"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>41ae3c83-326b-4286-be25-16c1f2d593be</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>0.50A hold</value>
+      <footprint>HYDRA:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="MPN">1206L050/15YR</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Footprint">HYDRA:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="MPN" value="1206L050/15YR"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>4242e21f-ce1e-44a3-85b7-9b6e92a0104e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>5V POWER IN</value>
+      <footprint>HYDRA:Molex_Micro-Fit_3.0_43650-0221_1x02_P3.00mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">43650-0221</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Footprint">HYDRA:Molex_Micro-Fit_3.0_43650-0221_1x02_P3.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="43650-0221"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>8fc1230a-c7cc-4d61-bb43-bbfd9c9f5016</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>USB-C USB2 DEVICE</value>
+      <footprint>HYDRA:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</footprint>
+      <fields>
+        <field name="MPN">USB4105-GF-A</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="Footprint">HYDRA:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_USB_C_Receptacle_USB2.0_16P" description="USB 2.0-only 16P Type-C Receptacle connector"/>
+      <property name="MPN" value="USB4105-GF-A"/>
+      <property name="Manufacturer" value="GCT"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>baffadbc-30b0-4566-a424-79a253681db4</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5.1k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>550bc89c-bfd1-4d02-b380-c1acfc942f6d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>5.1k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>29d03430-ed55-4a82-a6b0-5c89ce9b47ce</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>22</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0722RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0722RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>7bc6d6c0-28f7-4533-8692-14aba74320e1</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>22</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0722RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0722RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>eed978c9-7e5b-4217-af73-7afae684abf8</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>33k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0733KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0733KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>f042d270-0052-48e9-95ad-589842472e38</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>82k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0782KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0782KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>d64954fa-dace-4463-885f-200861aa6d83</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AP7361C-33E-13</value>
+      <footprint>HYDRA:SOT-223-3_TabPin2</footprint>
+      <fields>
+        <field name="MPN">AP7361C-33E-13</field>
+        <field name="Manufacturer">Diodes Inc.</field>
+        <field name="Footprint">HYDRA:SOT-223-3_TabPin2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="HYDRA_AP7361C_33E" description=""/>
+      <property name="MPN" value="AP7361C-33E-13"/>
+      <property name="Manufacturer" value="Diodes Inc."/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>1187d995-b5d1-4eff-b0c3-cc53daf9ba32</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>USBLC6-2SC6</value>
+      <footprint>HYDRA:SOT-23-6</footprint>
+      <fields>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Footprint">HYDRA:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Power_Protection_USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="MPN" value="USBLC6-2SC6"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Sheetname" value="Power_USB"/>
+      <property name="Sheetfile" value="Power_USB.kicad_sch"/>
+      <property name="ki_keywords" value="usb ethernet video"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Power_USB/" tstamps="/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f/"/>
+      <tstamps>146657fe-a26c-4ba7-88f7-1df9a76ceef0</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>1ebc5617-d90a-476c-85ed-c1c23cd550c0</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>4.7u</value>
+      <footprint>HYDRA:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71A475KA73L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR71A475KA73L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>735374c1-54e4-4b24-8b52-2da920466856</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>394bb6c0-ed96-4c2b-bfaf-095c5d7ce8a4</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>HYDRA:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">HYDRA:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>59c4d0ff-4c28-4570-864d-b1cd5c6474ae</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>PWR_5V</value>
+      <footprint>HYDRA:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">LTST-C190KGKT</field>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="Footprint">HYDRA:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_LED" description="Light emitting diode"/>
+      <property name="MPN" value="LTST-C190KGKT"/>
+      <property name="Manufacturer" value="Lite-On"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>44adae27-5e96-4bc8-83be-637faf1eea8c</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>PWR_3V3</value>
+      <footprint>HYDRA:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">LTST-C190KGKT</field>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="Footprint">HYDRA:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_LED" description="Light emitting diode"/>
+      <property name="MPN" value="LTST-C190KGKT"/>
+      <property name="Manufacturer" value="Lite-On"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>9821a726-a588-4d15-a850-bcfad028e7ed</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>STATUS</value>
+      <footprint>HYDRA:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">LTST-C190TBKT</field>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="Footprint">HYDRA:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_LED" description="Light emitting diode"/>
+      <property name="MPN" value="LTST-C190TBKT"/>
+      <property name="Manufacturer" value="Lite-On"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>15dd8a34-0c33-436a-b8c3-1f6f9cef8464</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>DATA</value>
+      <footprint>HYDRA:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">LTST-C190KSKT</field>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="Footprint">HYDRA:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_LED" description="Light emitting diode"/>
+      <property name="MPN" value="LTST-C190KSKT"/>
+      <property name="Manufacturer" value="Lite-On"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>d0318ee8-60a3-4902-9446-3aa4082bb296</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>3.3k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-073K3L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>6c450136-3040-4a9e-b6bf-8e3bcbbee5e9</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>2.2k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>f618ca48-809d-4481-91ca-dfb0edc5624a</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>c4b7cbd3-8ed1-498f-acd0-35618b60240c</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>2.2k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>57fd819a-42a6-4cc0-b3d2-f55d8afd351a</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>0461d08a-8c34-4c6f-a509-5cb08f6e5cf9</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>c7bf4bd9-6aa7-4d3f-b3ee-b44f1f7b0baa</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>0f4e86ca-6c56-46ab-a2c6-f46917414d11</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4.7k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>e86c2038-4a74-4354-a64b-cd6c0ffb0cfc</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>4.7k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>24af9a42-4024-444f-8240-032223620edc</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>c30a1cb3-474a-43a4-b525-669128560275</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>W25Q128JVSIQ</value>
+      <footprint>HYDRA:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <fields>
+        <field name="MPN">W25Q128JVSIQ</field>
+        <field name="Manufacturer">Winbond</field>
+        <field name="Footprint">HYDRA:SOIC-8_5.23x5.23mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Memory_Flash_W25Q128JVS" description="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="MPN" value="W25Q128JVSIQ"/>
+      <property name="Manufacturer" value="Winbond"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="flash memory SPI QPI DTR"/>
+      <property name="ki_fp_filters" value="SOIC*5.23x5.23mm*P1.27mm*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>19c31109-5baa-414a-b06e-a3f7995aff36</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>BME280</value>
+      <footprint>HYDRA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering</footprint>
+      <fields>
+        <field name="MPN">BME280</field>
+        <field name="Manufacturer">Bosch Sensortec</field>
+        <field name="Footprint">HYDRA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Sensor_BME280" description="3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"/>
+      <property name="MPN" value="BME280"/>
+      <property name="Manufacturer" value="Bosch Sensortec"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="Bosch pressure humidity temperature environment environmental measurement digital"/>
+      <property name="ki_fp_filters" value="*LGA*2.5x2.5mm*P0.65mm*Clockwise*"/>
+      <sheetpath names="/Peripherals/" tstamps="/8bf38ce4-b797-4506-b465-7b264c3ff4fe/"/>
+      <tstamps>c6dfa62b-aec9-4d8d-bc41-0ab9de47eb9e</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>M2.5 NPTH</value>
+      <footprint>HYDRA:MountingHole_2.7mm_M2.5</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:MountingHole_2.7mm_M2.5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Mechanical_MountingHole" description="Mounting Hole without connection"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>eb4733e5-ae13-4af6-9d0d-03d95065f146</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>M2.5 NPTH</value>
+      <footprint>HYDRA:MountingHole_2.7mm_M2.5</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:MountingHole_2.7mm_M2.5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Mechanical_MountingHole" description="Mounting Hole without connection"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>e7f7a021-0436-40bb-8144-ba81f3bd4f77</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>M2.5 NPTH</value>
+      <footprint>HYDRA:MountingHole_2.7mm_M2.5</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:MountingHole_2.7mm_M2.5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Mechanical_MountingHole" description="Mounting Hole without connection"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>e5b571a7-1949-41dc-afbb-5dbc4bf59c17</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>M2.5 NPTH</value>
+      <footprint>HYDRA:MountingHole_2.7mm_M2.5</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:MountingHole_2.7mm_M2.5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Mechanical_MountingHole" description="Mounting Hole without connection"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>0eb8c55b-b120-48ee-8590-63aa758d5c10</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>POWER I2C ALERT</value>
+      <footprint>HYDRA:Molex_Micro-Latch_53253-0470_1x04_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">53253-0470</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Footprint">HYDRA:Molex_Micro-Latch_53253-0470_1x04_P2.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_Generic_Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="53253-0470"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>96679417-4982-4cf1-a6d6-8414f946fbbe</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>RPi UART 3V3</value>
+      <footprint>HYDRA:Molex_Micro-Latch_53253-0370_1x03_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">53253-0370</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Footprint">HYDRA:Molex_Micro-Latch_53253-0370_1x03_P2.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_Generic_Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="53253-0370"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>8ab22390-0483-4ae2-8733-722662cc6a09</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>8 GPIO V2 LOGIC</value>
+      <footprint>HYDRA:Molex_Micro-Latch_53253-1070_1x10_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">53253-1070</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Footprint">HYDRA:Molex_Micro-Latch_53253-1070_1x10_P2.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_Generic_Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="53253-1070"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>ff34e0be-243b-4a56-85f5-567e0936087c</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>SWD 2.54mm</value>
+      <footprint>HYDRA:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">61301021121</field>
+        <field name="Manufacturer">Wurth</field>
+        <field name="Footprint">HYDRA:PinHeader_2x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_Generic_Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="61301021121"/>
+      <property name="Manufacturer" value="Wurth"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>b9c78105-de4e-4c5e-8ff7-c9973f4de417</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>47</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0747RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0747RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>ea1dfaae-99f8-4f52-a523-d4ef8c39c512</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>47</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0747RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0747RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>c39461c2-6558-4e49-904c-dcf8be2a614b</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>7d776e57-b05c-40be-8d9b-87178f49d6ef</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>2.2k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>cdbcb37c-2a92-41f1-b91d-5b59704e7b82</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>2.2k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>2da749b2-aa6d-466d-af79-453f4f22d0b6</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>d28bbf36-86b4-4a6b-a858-9d6809ad5377</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>1k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>d0d1d081-1aa9-4a12-8682-b54087b26e4d</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>1k</value>
+      <footprint>HYDRA:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">HYDRA:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Device_R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>68f2b815-ee7f-4acc-816e-756ebca06317</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>+5V_SYS</value>
+      <footprint>HYDRA:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>f521d44f-7f4b-479e-896d-84e38a335e99</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>+3V3</value>
+      <footprint>HYDRA:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>36004526-a855-43d5-9d65-56566db6db2e</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>GND</value>
+      <footprint>HYDRA:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>12fbee26-a767-447e-b584-07d4bc5f819e</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>NRST</value>
+      <footprint>HYDRA:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>2de7dd6d-4e81-4860-8d85-f581eaf176fc</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>UART_TX</value>
+      <footprint>HYDRA:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>266efd4e-671e-4dd7-8e6d-309671fc55a6</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>UART_RX</value>
+      <footprint>HYDRA:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>d13db8a5-d280-4280-8423-6f83fe15637d</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>PB_SDA</value>
+      <footprint>HYDRA:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>8d562571-0296-4f40-8249-0fc40348fbe6</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>PB_SCL</value>
+      <footprint>HYDRA:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>3a904f26-4a41-40d5-9d92-0d0aa84d60b1</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>INA_ALERT</value>
+      <footprint>HYDRA:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>518cfd16-e844-4cb5-b14f-694b9c929e26</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>BOOT0</value>
+      <footprint>HYDRA:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">HYDRA:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="HYDRA" part="Connector_TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="Interfaces.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Interfaces/" tstamps="/4a5d1b73-343c-48b9-a1e3-5b2ed9973378/"/>
+      <tstamps>19642313-05e3-4328-9960-7f0495a800ef</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="HYDRA" part="Connector_Generic_Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Connector_Generic_Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Connector_Generic_Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Connector_Generic_Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Connector_Generic_Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Connector_TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Connector_USB_C_Receptacle_USB2.0_16P">
+      <description>USB 2.0-only 16P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0_16P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only 16P Type-C Receptacle connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Device_C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Device_Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Four pin crystal, GND on pins 2 and 4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Device_D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Device_FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Ferrite bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Device_LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Device_Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resettable fuse, polymeric positive temperature coefficient</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Device_R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="HYDRA_AP7361C_33E">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP7361C_33E</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="MCU_ST_STM32F4_STM32F405RGTx">
+      <description>STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 51 GPIO, LQFP64</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32f405rg.pdf</docs>
+      <footprints>
+        <fp>LQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F405RGTx</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32f405rg.pdf</field>
+        <field name="Description">STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 51 GPIO, LQFP64</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="bidirectional"/>
+        <pin num="3" name="PC14" type="bidirectional"/>
+        <pin num="4" name="PC15" type="bidirectional"/>
+        <pin num="5" name="PH0" type="bidirectional"/>
+        <pin num="6" name="PH1" type="bidirectional"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="PC0" type="bidirectional"/>
+        <pin num="9" name="PC1" type="bidirectional"/>
+        <pin num="10" name="PC2" type="bidirectional"/>
+        <pin num="11" name="PC3" type="bidirectional"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="power_in"/>
+        <pin num="14" name="PA0" type="bidirectional"/>
+        <pin num="15" name="PA1" type="bidirectional"/>
+        <pin num="16" name="PA2" type="bidirectional"/>
+        <pin num="17" name="PA3" type="bidirectional"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4" type="bidirectional"/>
+        <pin num="21" name="PA5" type="bidirectional"/>
+        <pin num="22" name="PA6" type="bidirectional"/>
+        <pin num="23" name="PA7" type="bidirectional"/>
+        <pin num="24" name="PC4" type="bidirectional"/>
+        <pin num="25" name="PC5" type="bidirectional"/>
+        <pin num="26" name="PB0" type="bidirectional"/>
+        <pin num="27" name="PB1" type="bidirectional"/>
+        <pin num="28" name="PB2" type="bidirectional"/>
+        <pin num="29" name="PB10" type="bidirectional"/>
+        <pin num="30" name="PB11" type="bidirectional"/>
+        <pin num="31" name="VCAP_1" type="power_out"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="bidirectional"/>
+        <pin num="34" name="PB13" type="bidirectional"/>
+        <pin num="35" name="PB14" type="bidirectional"/>
+        <pin num="36" name="PB15" type="bidirectional"/>
+        <pin num="37" name="PC6" type="bidirectional"/>
+        <pin num="38" name="PC7" type="bidirectional"/>
+        <pin num="39" name="PC8" type="bidirectional"/>
+        <pin num="40" name="PC9" type="bidirectional"/>
+        <pin num="41" name="PA8" type="bidirectional"/>
+        <pin num="42" name="PA9" type="bidirectional"/>
+        <pin num="43" name="PA10" type="bidirectional"/>
+        <pin num="44" name="PA11" type="bidirectional"/>
+        <pin num="45" name="PA12" type="bidirectional"/>
+        <pin num="46" name="PA13" type="bidirectional"/>
+        <pin num="47" name="VCAP_2" type="power_out"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA14" type="bidirectional"/>
+        <pin num="50" name="PA15" type="bidirectional"/>
+        <pin num="51" name="PC10" type="bidirectional"/>
+        <pin num="52" name="PC11" type="bidirectional"/>
+        <pin num="53" name="PC12" type="bidirectional"/>
+        <pin num="54" name="PD2" type="bidirectional"/>
+        <pin num="55" name="PB3" type="bidirectional"/>
+        <pin num="56" name="PB4" type="bidirectional"/>
+        <pin num="57" name="PB5" type="bidirectional"/>
+        <pin num="58" name="PB6" type="bidirectional"/>
+        <pin num="59" name="PB7" type="bidirectional"/>
+        <pin num="60" name="BOOT0" type="input"/>
+        <pin num="61" name="PB8" type="bidirectional"/>
+        <pin num="62" name="PB9" type="bidirectional"/>
+        <pin num="63" name="VSS" type="passive"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Mechanical_MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+    <libpart lib="HYDRA" part="Memory_Flash_W25Q128JVS">
+      <description>128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q128JVS</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</field>
+        <field name="Description">128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Power_Protection_USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+        <field name="Description">Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Sensor_BME280">
+      <description>3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8</description>
+      <docs>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf</docs>
+      <footprints>
+        <fp>*LGA*2.5x2.5mm*P0.65mm*Clockwise*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BME280</field>
+        <field name="Footprint">Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering</field>
+        <field name="Datasheet">https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf</field>
+        <field name="Description">3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="CSB" type="input"/>
+        <pin num="3" name="SDI" type="bidirectional"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="SDO" type="bidirectional"/>
+        <pin num="6" name="VDDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="HYDRA" part="Switch_SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="HYDRA">
+      <uri>/workspace/scratch/5509dcffc0f7/HYDRA_MAIN_V1_OPT/libraries/HYDRA.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="19" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="48" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="64" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="CSB" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U4" pin="8" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V_SYS" class="Default">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="3" name="BME_ADDR" class="Default">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="SDO" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="BME_SCL" class="Default">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="PA8" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="5" name="BME_SDA" class="Default">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="PC9" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="SDI" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="BOOT0" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="60" pinfunction="BOOT0" pintype="input"/>
+    </net>
+    <net code="7" name="BOOT1" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="EXT_ADC1" class="Default">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="EXT_ADC2" class="Default">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="EXT_GPIO1" class="Default">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="EXT_GPIO2" class="Default">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="EXT_PWM1" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="EXT_PWM2" class="Default">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="EXT_PWM3" class="Default">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="EXT_PWM4" class="Default">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="FLASH_CS" class="Default">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="PB12" pintype="bidirectional"/>
+      <node ref="U3" pin="1" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="17" name="FLASH_HOLD" class="Default">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="FLASH_MISO" class="Default">
+      <node ref="U1" pin="35" pinfunction="PB14" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="FLASH_MOSI" class="Default">
+      <node ref="U1" pin="36" pinfunction="PB15" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="FLASH_SCK" class="Default">
+      <node ref="U1" pin="34" pinfunction="PB13" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="21" name="FLASH_WP" class="Default">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J5" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="63" pinfunction="VSS" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="23" name="HSE_IN" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PH0" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="24" name="HSE_OUT" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PH1" pintype="bidirectional"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="25" name="INA_ALERT" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="INA_ALERT_MCU" class="Default">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U1" pin="61" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="LED_A0" class="Default">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="LED_A1" class="Default">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="LED_A2" class="Default">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="LED_A3" class="Default">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="LED_DATA" class="Default">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="54" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="LED_STATUS" class="Default">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="PC8" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="NRST" class="Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J6" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="34" name="PB_5V" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="35" name="PB_FUSED" class="Default">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="PB_SCL" class="Default">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="37" name="PB_SCL_MCU" class="Default">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U1" pin="58" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="PB_SDA" class="Default">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="39" name="PB_SDA_MCU" class="Default">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U1" pin="59" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="STM_RX" class="Default">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="STM_TX" class="Default">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="SWCLK" class="Default">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="49" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="SWDIO" class="Default">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="SWO" class="Default">
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="55" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="UART_RX" class="Default">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="46" name="UART_TX" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="47" name="USB_CC1" class="Default">
+      <node ref="J5" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="USB_CC2" class="Default">
+      <node ref="J5" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="USB_DM" class="Default">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="USB_DM_EXT" class="Default">
+      <node ref="J5" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J5" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="I/O2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="51" name="USB_DP" class="Default">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="USB_DP_EXT" class="Default">
+      <node ref="J5" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J5" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="I/O1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="53" name="USB_FUSED" class="Default">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="VBUS_SENSE" class="Default">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="VBUS_USB" class="Default">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J5" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J5" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J5" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J5" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="56" name="VCAP1" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="VCAP_1" pintype="power_out"/>
+    </net>
+    <net code="57" name="VCAP2" class="Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="VCAP_2" pintype="power_out"/>
+    </net>
+    <net code="58" name="VDDA" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="VDDA" pintype="power_in"/>
+    </net>
+    <net code="59" name="unconnected-(J5-SBU1-PadA8)" class="Default">
+      <node ref="J5" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J5-SBU2-PadB8)" class="Default">
+      <node ref="J5" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J6-Pin_7-Pad7)" class="Default">
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(J6-Pin_8-Pad8)" class="Default">
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1-PA4-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="PA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1-PA5-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-PA6-Pad22)" class="Default">
+      <node ref="U1" pin="22" pinfunction="PA6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-PA7-Pad23)" class="Default">
+      <node ref="U1" pin="23" pinfunction="PA7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1-PA10-Pad43)" class="Default">
+      <node ref="U1" pin="43" pinfunction="PA10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U1-PA15-Pad50)" class="Default">
+      <node ref="U1" pin="50" pinfunction="PA15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1-PB0-Pad26)" class="Default">
+      <node ref="U1" pin="26" pinfunction="PB0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1-PB1-Pad27)" class="Default">
+      <node ref="U1" pin="27" pinfunction="PB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U1-PB4-Pad56)" class="Default">
+      <node ref="U1" pin="56" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U1-PB5-Pad57)" class="Default">
+      <node ref="U1" pin="57" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U1-PB9-Pad62)" class="Default">
+      <node ref="U1" pin="62" pinfunction="PB9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U1-PC2-Pad10)" class="Default">
+      <node ref="U1" pin="10" pinfunction="PC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1-PC3-Pad11)" class="Default">
+      <node ref="U1" pin="11" pinfunction="PC3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U1-PC4-Pad24)" class="Default">
+      <node ref="U1" pin="24" pinfunction="PC4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U1-PC5-Pad25)" class="Default">
+      <node ref="U1" pin="25" pinfunction="PC5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U1-PC10-Pad51)" class="Default">
+      <node ref="U1" pin="51" pinfunction="PC10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U1-PC11-Pad52)" class="Default">
+      <node ref="U1" pin="52" pinfunction="PC11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U1-PC12-Pad53)" class="Default">
+      <node ref="U1" pin="53" pinfunction="PC12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U1-PC13-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="PC13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U1-PC14-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="PC14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U1-PC15-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="PC15" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

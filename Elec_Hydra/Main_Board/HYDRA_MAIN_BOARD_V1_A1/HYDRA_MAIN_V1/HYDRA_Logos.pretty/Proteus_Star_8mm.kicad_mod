@@ -1,0 +1,8 @@
+(footprint "Proteus_Star_8mm" (version 20221018) (generator pcbnew) (layer "F.Cu")
+ (descr "Proteus star extracted from official PDF vector geometry; F.SilkS only") (attr board_only exclude_from_pos_files exclude_from_bom)
+ (fp_text reference "G***" (at 0 0) (layer "F.Fab") hide (effects (font (size 1 1) (thickness .15))))
+ (fp_text value "Proteus_Star_8mm" (at 0 0) (layer "F.Fab") hide (effects (font (size 1 1) (thickness .15))))
+ (fp_poly (pts (xy 0.002983 -3.964536) (xy -0.008963 -3.989130) (xy -0.032283 -3.999721) (xy -0.057447 -3.994757) (xy -0.074927 -3.972688) (xy -1.052057 -1.064733) (xy -3.983011 -0.075741) (xy -4.000581 -0.064449) (xy -4.009186 -0.047889) (xy -4.008479 -0.025928) (xy -3.999365 -0.009938) (xy -3.986903 -0.001144) (xy -3.970162 0.002181) (xy 0.003206 0.002181)) (stroke (width 0) (type default)) (fill solid) (layer "F.SilkS"))
+ (fp_poly (pts (xy 3.974745 0.001960) (xy 3.999432 -0.010003) (xy 4.010012 -0.033336) (xy 4.004946 -0.058471) (xy 3.982696 -0.075842) (xy 1.201891 -0.988835) (xy 1.162080 -0.998606) (xy 1.121814 -1.002146) (xy 1.071925 -0.998048) (xy 1.023818 -0.984768) (xy 0.978880 -0.962615) (xy 0.938494 -0.931897) (xy 0.003206 0.002183)) (stroke (width 0) (type default)) (fill solid) (layer "F.SilkS"))
+ (fp_poly (pts (xy 0.003206 0.002183) (xy -0.933033 0.935301) (xy -0.963822 0.975595) (xy -0.986027 1.020430) (xy -0.999339 1.068425) (xy -1.003446 1.118200) (xy -0.999896 1.158373) (xy -0.990099 1.198094) (xy -0.075000 3.972478) (xy -0.060779 3.992591) (xy -0.036110 4.000000) (xy -0.009010 3.989175) (xy -0.000146 3.976726) (xy 0.003206 3.959968)) (stroke (width 0) (type default)) (fill solid) (layer "F.SilkS"))
+)

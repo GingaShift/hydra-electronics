@@ -1,0 +1,15 @@
+{
+  "native_schematic_netlist": "kicad-cli 9.0.9 kicadxml",
+  "mismatched_pad_nets": [],
+  "tracks_by_layer": {
+    "F.Cu": 571,
+    "B.Cu": 222
+  },
+  "routed_track_count": 675,
+  "via_count": 118,
+  "outline_mm": [
+    75,
+    60
+  ],
+  "copper_layers": 4
+}

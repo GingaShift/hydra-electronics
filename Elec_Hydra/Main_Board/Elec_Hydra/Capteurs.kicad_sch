@@ -963,7 +963,7 @@
 	)
 	(rectangle
 		(start 119.38 12.7)
-		(end 199.39 93.98)
+		(end 199.39 38.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -1229,7 +1229,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 48.26 69.85 270)
+		(at 102.87 34.29 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1239,7 +1239,7 @@
 		)
 		(uuid "2231cc0e-a5a8-4814-9965-bbef7a53762c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.26 76.4033 90)
+			(at 102.87 40.8433 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1301,7 +1301,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 41.91 57.15 270)
+		(at 93.98 34.29 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1311,7 +1311,7 @@
 		)
 		(uuid "f0635cce-7c07-4fc4-80a4-8faf464b2217")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 63.6428 90)
+			(at 93.98 40.7828 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1488,7 +1488,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4c17a7ee-c86f-41da-a8fd-d466ca217a9d")
 		(property "Reference" "U6"
 			(at 63.5 58.4199 0)
@@ -1502,7 +1501,7 @@
 			)
 		)
 		(property "Value" "BME280"
-			(at 63.5 60.9599 0)
+			(at 107.188 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1740,7 +1739,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.91 53.34 180)
+		(at 93.98 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1751,7 +1750,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e54ca33-1932-401b-a723-5c5231a91601")
 		(property "Reference" "R6"
-			(at 44.45 52.0699 0)
+			(at 96.52 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1762,7 +1761,7 @@
 			)
 		)
 		(property "Value" "4,7k"
-			(at 44.45 54.6099 0)
+			(at 96.52 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1773,7 +1772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.688 53.34 90)
+			(at 95.758 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1784,7 +1783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 53.34 0)
+			(at 93.98 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1795,7 +1794,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 41.91 53.34 0)
+			(at 93.98 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1822,7 +1821,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 48.26 62.23 0)
+		(at 102.87 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1833,7 +1832,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f4938ca-6c53-490c-ad0c-189d6e5c686a")
 		(property "Reference" "#PWR043"
-			(at 48.26 66.04 0)
+			(at 102.87 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1844,7 +1843,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 48.26 57.15 0)
+			(at 102.87 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1854,7 +1853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 62.23 0)
+			(at 102.87 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1865,7 +1864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 62.23 0)
+			(at 102.87 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1876,7 +1875,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 48.26 62.23 0)
+			(at 102.87 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1978,7 +1977,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 66.04 0)
+		(at 102.87 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1988,7 +1987,7 @@
 		(dnp no)
 		(uuid "894f8253-cac7-42c6-b781-04d93c165719")
 		(property "Reference" "R7"
-			(at 50.8 64.7699 0)
+			(at 105.41 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1999,7 +1998,7 @@
 			)
 		)
 		(property "Value" "4,7k"
-			(at 50.8 67.3099 0)
+			(at 105.41 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2010,7 +2009,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
-			(at 46.482 66.04 90)
+			(at 101.092 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2021,7 +2020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 66.04 0)
+			(at 102.87 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2032,7 +2031,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 66.04 0)
+			(at 102.87 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2375,7 +2374,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 41.91 49.53 0)
+		(at 93.98 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2386,7 +2385,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8f41480-3940-4f1a-8436-fc4ddcc0d3ce")
 		(property "Reference" "#PWR040"
-			(at 41.91 53.34 0)
+			(at 93.98 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2397,7 +2396,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 41.91 44.45 0)
+			(at 93.98 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2407,7 +2406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 49.53 0)
+			(at 93.98 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2418,7 +2417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 49.53 0)
+			(at 93.98 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2429,7 +2428,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 41.91 49.53 0)
+			(at 93.98 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

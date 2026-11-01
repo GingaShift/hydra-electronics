@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "HYDRA") (type "KiCad") (uri "${KIPRJMOD}/libraries/HYDRA.pretty") (options "") (descr "Project local footprints"))
+	(lib (name "HYDRA_Logos") (type "KiCad") (uri "${KIPRJMOD}/HYDRA_Logos.pretty") (options "") (descr ""))
+)

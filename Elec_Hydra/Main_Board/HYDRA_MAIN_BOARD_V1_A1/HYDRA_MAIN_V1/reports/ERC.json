@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-28T00:44:39+0100",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.9",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90",
+            "violations": []
+        },
+        {
+            "path": "/Power_USB/",
+            "uuid_path": "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/6efb1cb4-221e-4c7c-8ae4-97f2f1dd433f",
+            "violations": []
+        },
+        {
+            "path": "/Peripherals/",
+            "uuid_path": "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/8bf38ce4-b797-4506-b465-7b264c3ff4fe",
+            "violations": []
+        },
+        {
+            "path": "/Interfaces/",
+            "uuid_path": "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378",
+            "violations": []
+        }
+    ],
+    "source": "HYDRA_MAIN_V1.kicad_sch"
+}

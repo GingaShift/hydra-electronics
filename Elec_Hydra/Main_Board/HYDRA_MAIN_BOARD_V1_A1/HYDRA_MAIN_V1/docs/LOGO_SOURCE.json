@@ -1,0 +1,68 @@
+{
+  "source_pdf": "/workspace/scratch/5509dcffc0f7/upload/Brand Kit HYDRA(2).pdf",
+  "source_sha256": "998ecbb07c29b3756a9c9d1097324ace0617d9ae499a524df11ac4056d07d6ab",
+  "source_page_1_indexed": 1,
+  "wordmark_clip_path_items": 78,
+  "north_star_filled_paths": 6,
+  "r_a_minimum_gap_pdf_pt": 1.22998046875,
+  "width_for_0p15mm_r_a_gap_lockup_mm": 48.99074930188768,
+  "width_for_0p15mm_r_a_gap_wordmark_mm": 38.50862941643509,
+  "variants": [
+    {
+      "name": "HYDRA_Official_Vector_22mm",
+      "width_mm": 22,
+      "height_mm": 4.381188333287672,
+      "scale_mm_per_pdf_pt": 0.054764817247059984,
+      "source_bbox_pdf_pt": [
+        751.0000081658363,
+        149.99994407594204,
+        1152.7177734375,
+        229.9999980069697
+      ],
+      "fp_poly_count": 1093,
+      "maximum_bezier_flatness_mm": 0.00021905926898823993
+    },
+    {
+      "name": "HYDRA_Official_Vector_50mm",
+      "width_mm": 50,
+      "height_mm": 9.957246212017436,
+      "scale_mm_per_pdf_pt": 0.12446549374331814,
+      "source_bbox_pdf_pt": [
+        751.0000081658363,
+        149.99994407594204,
+        1152.7177734375,
+        229.9999980069697
+      ],
+      "fp_poly_count": 1093,
+      "maximum_bezier_flatness_mm": 0.0004978619749732725
+    },
+    {
+      "name": "HYDRA_Official_Wordmark_22mm",
+      "width_mm": 22,
+      "height_mm": 4.762214154192534,
+      "scale_mm_per_pdf_pt": 0.06967190141463062,
+      "source_bbox_pdf_pt": [
+        836.9520263671875,
+        155.64805603027344,
+        1152.7177734375,
+        224.00006103515625
+      ],
+      "fp_poly_count": 1087,
+      "maximum_bezier_flatness_mm": 0.0002786876056585225
+    },
+    {
+      "name": "HYDRA_Official_Wordmark_40mm",
+      "width_mm": 40,
+      "height_mm": 8.65857118944097,
+      "scale_mm_per_pdf_pt": 0.12667618439023748,
+      "source_bbox_pdf_pt": [
+        836.9520263671875,
+        155.64805603027344,
+        1152.7177734375,
+        224.00006103515625
+      ],
+      "fp_poly_count": 1087,
+      "maximum_bezier_flatness_mm": 0.0005067047375609499
+    }
+  ]
+}

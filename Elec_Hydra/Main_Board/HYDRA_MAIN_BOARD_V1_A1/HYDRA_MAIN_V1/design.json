@@ -1,0 +1,2180 @@
+[
+  {
+    "ref": "U1",
+    "lib": "MCU_ST_STM32F4:STM32F405RGTx",
+    "value": "STM32F405RGT6",
+    "fp": "HYDRA:LQFP-64_10x10mm_P0.5mm",
+    "nets": {
+      "1": "+3V3",
+      "2": null,
+      "3": null,
+      "4": null,
+      "5": "HSE_IN",
+      "6": "HSE_OUT",
+      "7": "NRST",
+      "8": "EXT_ADC1",
+      "9": "EXT_ADC2",
+      "10": null,
+      "11": null,
+      "12": "GND",
+      "13": "VDDA",
+      "14": "EXT_PWM1",
+      "15": "EXT_PWM2",
+      "16": "EXT_PWM3",
+      "17": "EXT_PWM4",
+      "18": "GND",
+      "19": "+3V3",
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": null,
+      "27": null,
+      "28": "BOOT1",
+      "29": "STM_TX",
+      "30": "STM_RX",
+      "31": "VCAP1",
+      "32": "+3V3",
+      "33": "FLASH_CS",
+      "34": "FLASH_SCK",
+      "35": "FLASH_MISO",
+      "36": "FLASH_MOSI",
+      "37": "EXT_GPIO1",
+      "38": "EXT_GPIO2",
+      "39": "LED_STATUS",
+      "40": "BME_SDA",
+      "41": "BME_SCL",
+      "42": "VBUS_SENSE",
+      "43": null,
+      "44": "USB_DM",
+      "45": "USB_DP",
+      "46": "SWDIO",
+      "47": "VCAP2",
+      "48": "+3V3",
+      "49": "SWCLK",
+      "50": null,
+      "51": null,
+      "52": null,
+      "53": null,
+      "54": "LED_DATA",
+      "55": "SWO",
+      "56": null,
+      "57": null,
+      "58": "PB_SCL_MCU",
+      "59": "PB_SDA_MCU",
+      "60": "BOOT0",
+      "61": "INA_ALERT_MCU",
+      "62": null,
+      "63": "GND",
+      "64": "+3V3"
+    },
+    "sch": [
+      0,
+      110,
+      100
+    ],
+    "pcb": [
+      38,
+      30,
+      0
+    ],
+    "mpn": "STM32F405RGT6",
+    "maker": "STMicroelectronics",
+    "note": "",
+    "uuid": "4267ccb4-f7e2-4d5b-a355-1ed923a15036"
+  },
+  {
+    "ref": "C1",
+    "lib": "Device:C",
+    "value": "100n",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      170,
+      45
+    ],
+    "pcb": [
+      34.25,
+      21,
+      90
+    ],
+    "mpn": "GRM188R71C104KA01D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "f4f974f2-4ff1-4c9f-a4dc-b0f87079a223"
+  },
+  {
+    "ref": "C2",
+    "lib": "Device:C",
+    "value": "100n",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      193,
+      45
+    ],
+    "pcb": [
+      46.5,
+      25,
+      0
+    ],
+    "mpn": "GRM188R71C104KA01D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "fba9f8b7-2d38-42d2-a3c5-937a6fad8c7b"
+  },
+  {
+    "ref": "C3",
+    "lib": "Device:C",
+    "value": "100n",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      216,
+      45
+    ],
+    "pcb": [
+      42,
+      39,
+      90
+    ],
+    "mpn": "GRM188R71C104KA01D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "d2e0fd11-57ff-400d-afd3-33482c278848"
+  },
+  {
+    "ref": "C4",
+    "lib": "Device:C",
+    "value": "100n",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      239,
+      45
+    ],
+    "pcb": [
+      34.5,
+      39,
+      90
+    ],
+    "mpn": "GRM188R71C104KA01D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "bf18f424-a58c-43d0-9632-82bb79e4b700"
+  },
+  {
+    "ref": "C5",
+    "lib": "Device:C",
+    "value": "4.7u",
+    "fp": "HYDRA:C_0805_2012Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      170,
+      72
+    ],
+    "pcb": [
+      49,
+      41,
+      0
+    ],
+    "mpn": "GRM21BR71A475KA73L",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "45d10bcd-3846-4b8d-a24a-59c5ad15c6bd"
+  },
+  {
+    "ref": "C6",
+    "lib": "Device:C",
+    "value": "2.2u",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "VCAP1",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      195,
+      72
+    ],
+    "pcb": [
+      39,
+      39,
+      90
+    ],
+    "mpn": "GRM188R71A225KE15D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "1fcfe965-8727-4257-8d54-b36a258299c6"
+  },
+  {
+    "ref": "C7",
+    "lib": "Device:C",
+    "value": "2.2u",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "VCAP2",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      220,
+      72
+    ],
+    "pcb": [
+      46.5,
+      31.5,
+      0
+    ],
+    "mpn": "GRM188R71A225KE15D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "cbcf0a30-e862-4100-ba32-2312a71e6f54"
+  },
+  {
+    "ref": "FB1",
+    "lib": "Device:FerriteBead",
+    "value": "600R@100MHz",
+    "fp": "HYDRA:L_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "VDDA"
+    },
+    "sch": [
+      0,
+      170,
+      100
+    ],
+    "pcb": [
+      26,
+      35,
+      0
+    ],
+    "mpn": "BLM18AG601SN1D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "4e321c52-cfd1-4513-9fea-febdba7c413b"
+  },
+  {
+    "ref": "C8",
+    "lib": "Device:C",
+    "value": "100n",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "VDDA",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      195,
+      100
+    ],
+    "pcb": [
+      28.5,
+      33,
+      0
+    ],
+    "mpn": "GRM188R71C104KA01D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "d5c5c44f-0e6a-4c45-87b0-9efb30274847"
+  },
+  {
+    "ref": "C9",
+    "lib": "Device:C",
+    "value": "4.7u",
+    "fp": "HYDRA:C_0805_2012Metric",
+    "nets": {
+      "1": "VDDA",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      220,
+      100
+    ],
+    "pcb": [
+      26,
+      39,
+      90
+    ],
+    "mpn": "GRM21BR71A475KA73L",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "f2006889-d8e9-4543-b8d8-8f613ec05eb8"
+  },
+  {
+    "ref": "Y1",
+    "lib": "Device:Crystal_GND24",
+    "value": "8MHz CL10pF",
+    "fp": "HYDRA:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+    "nets": {
+      "1": "HSE_IN",
+      "2": "GND",
+      "3": "HSE_OUT",
+      "4": "GND"
+    },
+    "sch": [
+      0,
+      180,
+      135
+    ],
+    "pcb": [
+      27,
+      28.5,
+      90
+    ],
+    "mpn": "ECS-80-10-33-CHN-TR",
+    "maker": "ECS",
+    "note": "CL10pF; C0max5pF ESRmax400R; gmcrit0.91mA/V, qualifier oscillation",
+    "uuid": "abab09e0-6479-4850-8b78-bc6237115165"
+  },
+  {
+    "ref": "C10",
+    "lib": "Device:C",
+    "value": "14p",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "HSE_IN",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      210,
+      135
+    ],
+    "pcb": [
+      23,
+      26,
+      90
+    ],
+    "mpn": "GRM1885C1H140JA01D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "4c018b33-1ddf-44bc-9cca-38f016da0c2c"
+  },
+  {
+    "ref": "C11",
+    "lib": "Device:C",
+    "value": "14p",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "HSE_OUT",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      235,
+      135
+    ],
+    "pcb": [
+      23,
+      31,
+      90
+    ],
+    "mpn": "GRM1885C1H140JA01D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "6469b53c-6cdd-4094-b349-70f70db0b1da"
+  },
+  {
+    "ref": "R1",
+    "lib": "Device:R",
+    "value": "10k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "BOOT0",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      170,
+      165
+    ],
+    "pcb": [
+      37,
+      16,
+      0
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "c47ec595-bf8e-451b-acd6-230c96af4c6c"
+  },
+  {
+    "ref": "R2",
+    "lib": "Device:R",
+    "value": "10k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "BOOT1",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      195,
+      165
+    ],
+    "pcb": [
+      48,
+      19,
+      0
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "704861fc-d949-4ae8-a3ab-1f438ca4fb33"
+  },
+  {
+    "ref": "R3",
+    "lib": "Device:R",
+    "value": "10k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "NRST",
+      "2": "+3V3"
+    },
+    "sch": [
+      0,
+      220,
+      165
+    ],
+    "pcb": [
+      22,
+      39,
+      0
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "f2b6c114-52b5-4aee-bb81-03a1fc8fccd5"
+  },
+  {
+    "ref": "C12",
+    "lib": "Device:C",
+    "value": "100n",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "NRST",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      245,
+      165
+    ],
+    "pcb": [
+      21,
+      37,
+      0
+    ],
+    "mpn": "GRM188R71C104KA01D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "1e000aa5-29a1-43a6-b7b7-8a4153050205"
+  },
+  {
+    "ref": "SW1",
+    "lib": "Switch:SW_Push",
+    "value": "BOOT",
+    "fp": "HYDRA:SW_SPST_TL3342",
+    "nets": {
+      "1": "BOOT0",
+      "2": "+3V3"
+    },
+    "sch": [
+      0,
+      180,
+      192
+    ],
+    "pcb": [
+      15,
+      38,
+      0
+    ],
+    "mpn": "TL3342F160QG",
+    "maker": "E-Switch",
+    "note": "",
+    "uuid": "13f4455b-17d1-4d4a-a16c-efda9e386409"
+  },
+  {
+    "ref": "SW2",
+    "lib": "Switch:SW_Push",
+    "value": "RESET",
+    "fp": "HYDRA:SW_SPST_TL3342",
+    "nets": {
+      "1": "NRST",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      230,
+      192
+    ],
+    "pcb": [
+      26,
+      46,
+      0
+    ],
+    "mpn": "TL3342F160QG",
+    "maker": "E-Switch",
+    "note": "",
+    "uuid": "08ad775b-caee-4797-b428-b15b2d33f0c6"
+  },
+  {
+    "ref": "J1",
+    "lib": "Connector_Generic:Conn_01x02",
+    "value": "5V POWER IN",
+    "fp": "HYDRA:Molex_Micro-Fit_3.0_43650-0221_1x02_P3.00mm_Vertical",
+    "nets": {
+      "1": "PB_5V",
+      "2": "GND"
+    },
+    "sch": [
+      1,
+      35,
+      35
+    ],
+    "pcb": [
+      9,
+      11,
+      0
+    ],
+    "mpn": "43650-0221",
+    "maker": "Molex",
+    "note": "",
+    "uuid": "8fc1230a-c7cc-4d61-bb43-bbfd9c9f5016"
+  },
+  {
+    "ref": "F1",
+    "lib": "Device:Polyfuse",
+    "value": "0.50A hold",
+    "fp": "HYDRA:Fuse_1206_3216Metric",
+    "nets": {
+      "1": "PB_5V",
+      "2": "PB_FUSED"
+    },
+    "sch": [
+      1,
+      70,
+      35
+    ],
+    "pcb": [
+      6,
+      20,
+      0
+    ],
+    "mpn": "1206L050/15YR",
+    "maker": "Littelfuse",
+    "note": "",
+    "uuid": "41ae3c83-326b-4286-be25-16c1f2d593be"
+  },
+  {
+    "ref": "F2",
+    "lib": "Device:Polyfuse",
+    "value": "0.50A hold",
+    "fp": "HYDRA:Fuse_1206_3216Metric",
+    "nets": {
+      "1": "VBUS_USB",
+      "2": "USB_FUSED"
+    },
+    "sch": [
+      1,
+      150,
+      35
+    ],
+    "pcb": [
+      65,
+      16,
+      0
+    ],
+    "mpn": "1206L050/15YR",
+    "maker": "Littelfuse",
+    "note": "",
+    "uuid": "4242e21f-ce1e-44a3-85b7-9b6e92a0104e"
+  },
+  {
+    "ref": "D1",
+    "lib": "Device:D_Schottky",
+    "value": "SS14",
+    "fp": "HYDRA:D_SMA",
+    "nets": {
+      "1": "+5V_SYS",
+      "2": "PB_FUSED"
+    },
+    "sch": [
+      1,
+      100,
+      35
+    ],
+    "pcb": [
+      9,
+      26,
+      0
+    ],
+    "mpn": "SS14-E3/61T",
+    "maker": "Vishay",
+    "note": "OR passif; protege retours et inversion polarite",
+    "uuid": "6c25e0bd-dc9b-4451-be07-d2fd0d7c63a2"
+  },
+  {
+    "ref": "D2",
+    "lib": "Device:D_Schottky",
+    "value": "SS14",
+    "fp": "HYDRA:D_SMA",
+    "nets": {
+      "1": "+5V_SYS",
+      "2": "USB_FUSED"
+    },
+    "sch": [
+      1,
+      190,
+      35
+    ],
+    "pcb": [
+      57,
+      16,
+      0
+    ],
+    "mpn": "SS14-E3/61T",
+    "maker": "Vishay",
+    "note": "OR passif; protege retours et inversion polarite",
+    "uuid": "9a7c0c7c-5ced-4618-9787-0e0047c63051"
+  },
+  {
+    "ref": "U2",
+    "lib": "HYDRA:AP7361C_33E",
+    "value": "AP7361C-33E-13",
+    "fp": "HYDRA:SOT-223-3_TabPin2",
+    "nets": {
+      "1": "+5V_SYS",
+      "2": "GND",
+      "3": "+3V3"
+    },
+    "sch": [
+      1,
+      90,
+      80
+    ],
+    "pcb": [
+      18,
+      18.5,
+      90
+    ],
+    "mpn": "AP7361C-33E-13",
+    "maker": "Diodes Inc.",
+    "note": "SOT223: 1IN 2GND/tab 3OUT, pas AMS1117",
+    "uuid": "1187d995-b5d1-4eff-b0c3-cc53daf9ba32"
+  },
+  {
+    "ref": "C13",
+    "lib": "Device:C",
+    "value": "4.7u",
+    "fp": "HYDRA:C_0805_2012Metric",
+    "nets": {
+      "1": "+5V_SYS",
+      "2": "GND"
+    },
+    "sch": [
+      1,
+      55,
+      80
+    ],
+    "pcb": [
+      17,
+      12.5,
+      0
+    ],
+    "mpn": "GRM21BR71A475KA73L",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "a081c0e3-b181-464e-8029-18c0ecb38597"
+  },
+  {
+    "ref": "C14",
+    "lib": "Device:C",
+    "value": "4.7u",
+    "fp": "HYDRA:C_0805_2012Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      1,
+      125,
+      80
+    ],
+    "pcb": [
+      23,
+      18,
+      90
+    ],
+    "mpn": "GRM21BR71A475KA73L",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "5115fdca-0966-426c-9657-2d5bf68d523d"
+  },
+  {
+    "ref": "C15",
+    "lib": "Device:C",
+    "value": "100n",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V_SYS",
+      "2": "GND"
+    },
+    "sch": [
+      1,
+      55,
+      108
+    ],
+    "pcb": [
+      18,
+      25,
+      0
+    ],
+    "mpn": "GRM188R71C104KA01D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "fa32ead4-eafd-4436-a1fb-ee03d8741915"
+  },
+  {
+    "ref": "J5",
+    "lib": "Connector:USB_C_Receptacle_USB2.0_16P",
+    "value": "USB-C USB2 DEVICE",
+    "fp": "HYDRA:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+    "nets": {
+      "A1": "GND",
+      "A12": "GND",
+      "B1": "GND",
+      "B12": "GND",
+      "S1": "GND",
+      "A4": "VBUS_USB",
+      "A9": "VBUS_USB",
+      "B4": "VBUS_USB",
+      "B9": "VBUS_USB",
+      "A5": "USB_CC1",
+      "B5": "USB_CC2",
+      "A6": "USB_DP_EXT",
+      "B6": "USB_DP_EXT",
+      "A7": "USB_DM_EXT",
+      "B7": "USB_DM_EXT",
+      "A8": null,
+      "B8": null
+    },
+    "sch": [
+      1,
+      40,
+      158
+    ],
+    "pcb": [
+      70.5,
+      27.65,
+      90
+    ],
+    "mpn": "USB4105-GF-A",
+    "maker": "GCT",
+    "note": "",
+    "uuid": "baffadbc-30b0-4566-a424-79a253681db4"
+  },
+  {
+    "ref": "R4",
+    "lib": "Device:R",
+    "value": "5.1k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "USB_CC1",
+      "2": "GND"
+    },
+    "sch": [
+      1,
+      85,
+      130
+    ],
+    "pcb": [
+      63,
+      21,
+      0
+    ],
+    "mpn": "RC0603FR-075K1L",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "550bc89c-bfd1-4d02-b380-c1acfc942f6d"
+  },
+  {
+    "ref": "R5",
+    "lib": "Device:R",
+    "value": "5.1k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "USB_CC2",
+      "2": "GND"
+    },
+    "sch": [
+      1,
+      110,
+      130
+    ],
+    "pcb": [
+      68,
+      36,
+      0
+    ],
+    "mpn": "RC0603FR-075K1L",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "29d03430-ed55-4a82-a6b0-5c89ce9b47ce"
+  },
+  {
+    "ref": "U5",
+    "lib": "Power_Protection:USBLC6-2SC6",
+    "value": "USBLC6-2SC6",
+    "fp": "HYDRA:SOT-23-6",
+    "nets": {
+      "1": "USB_DP_EXT",
+      "6": "USB_DP_EXT",
+      "3": "USB_DM_EXT",
+      "4": "USB_DM_EXT",
+      "2": "GND",
+      "5": "VBUS_USB"
+    },
+    "sch": [
+      1,
+      150,
+      158
+    ],
+    "pcb": [
+      54,
+      27.65,
+      0
+    ],
+    "mpn": "USBLC6-2SC6",
+    "maker": "STMicroelectronics",
+    "note": "",
+    "uuid": "146657fe-a26c-4ba7-88f7-1df9a76ceef0"
+  },
+  {
+    "ref": "C16",
+    "lib": "Device:C",
+    "value": "100n",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "VBUS_USB",
+      "2": "GND"
+    },
+    "sch": [
+      1,
+      190,
+      130
+    ],
+    "pcb": [
+      54,
+      23,
+      0
+    ],
+    "mpn": "GRM188R71C104KA01D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "a70655cf-c673-48af-a287-7d9ef2b9f535"
+  },
+  {
+    "ref": "R6",
+    "lib": "Device:R",
+    "value": "22",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "USB_DM_EXT",
+      "2": "USB_DM"
+    },
+    "sch": [
+      1,
+      200,
+      158
+    ],
+    "pcb": [
+      49,
+      28.6,
+      180
+    ],
+    "mpn": "RC0603FR-0722RL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "7bc6d6c0-28f7-4533-8692-14aba74320e1"
+  },
+  {
+    "ref": "R7",
+    "lib": "Device:R",
+    "value": "22",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "USB_DP_EXT",
+      "2": "USB_DP"
+    },
+    "sch": [
+      1,
+      230,
+      158
+    ],
+    "pcb": [
+      49,
+      26.7,
+      180
+    ],
+    "mpn": "RC0603FR-0722RL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "eed978c9-7e5b-4217-af73-7afae684abf8"
+  },
+  {
+    "ref": "R8",
+    "lib": "Device:R",
+    "value": "33k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "VBUS_USB",
+      "2": "VBUS_SENSE"
+    },
+    "sch": [
+      1,
+      200,
+      190
+    ],
+    "pcb": [
+      36,
+      44,
+      90
+    ],
+    "mpn": "RC0603FR-0733KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "f042d270-0052-48e9-95ad-589842472e38"
+  },
+  {
+    "ref": "R9",
+    "lib": "Device:R",
+    "value": "82k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "VBUS_SENSE",
+      "2": "GND"
+    },
+    "sch": [
+      1,
+      230,
+      190
+    ],
+    "pcb": [
+      40,
+      44,
+      90
+    ],
+    "mpn": "RC0603FR-0782KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "d64954fa-dace-4463-885f-200861aa6d83"
+  },
+  {
+    "ref": "R10",
+    "lib": "Device:R",
+    "value": "3.3k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "+5V_SYS",
+      "2": "LED_A0"
+    },
+    "sch": [
+      2,
+      40,
+      180
+    ],
+    "pcb": [
+      6,
+      45.5,
+      90
+    ],
+    "mpn": "RC0603FR-073K3L",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "6c450136-3040-4a9e-b6bf-8e3bcbbee5e9"
+  },
+  {
+    "ref": "D3",
+    "lib": "Device:LED",
+    "value": "PWR_5V",
+    "fp": "HYDRA:LED_0603_1608Metric",
+    "nets": {
+      "1": "GND",
+      "2": "LED_A0"
+    },
+    "sch": [
+      2,
+      40,
+      205
+    ],
+    "pcb": [
+      6,
+      48,
+      0
+    ],
+    "mpn": "LTST-C190KGKT",
+    "maker": "Lite-On",
+    "note": "green",
+    "uuid": "44adae27-5e96-4bc8-83be-637faf1eea8c"
+  },
+  {
+    "ref": "R11",
+    "lib": "Device:R",
+    "value": "2.2k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "LED_A1"
+    },
+    "sch": [
+      2,
+      105,
+      180
+    ],
+    "pcb": [
+      10,
+      45.5,
+      90
+    ],
+    "mpn": "RC0603FR-072K2L",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "f618ca48-809d-4481-91ca-dfb0edc5624a"
+  },
+  {
+    "ref": "D4",
+    "lib": "Device:LED",
+    "value": "PWR_3V3",
+    "fp": "HYDRA:LED_0603_1608Metric",
+    "nets": {
+      "1": "GND",
+      "2": "LED_A1"
+    },
+    "sch": [
+      2,
+      105,
+      205
+    ],
+    "pcb": [
+      10,
+      48,
+      0
+    ],
+    "mpn": "LTST-C190KGKT",
+    "maker": "Lite-On",
+    "note": "green",
+    "uuid": "9821a726-a588-4d15-a850-bcfad028e7ed"
+  },
+  {
+    "ref": "R12",
+    "lib": "Device:R",
+    "value": "1k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "LED_STATUS",
+      "2": "LED_A2"
+    },
+    "sch": [
+      2,
+      170,
+      180
+    ],
+    "pcb": [
+      14,
+      45.5,
+      90
+    ],
+    "mpn": "RC0603FR-071KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "c4b7cbd3-8ed1-498f-acd0-35618b60240c"
+  },
+  {
+    "ref": "D5",
+    "lib": "Device:LED",
+    "value": "STATUS",
+    "fp": "HYDRA:LED_0603_1608Metric",
+    "nets": {
+      "1": "GND",
+      "2": "LED_A2"
+    },
+    "sch": [
+      2,
+      170,
+      205
+    ],
+    "pcb": [
+      14,
+      48,
+      0
+    ],
+    "mpn": "LTST-C190TBKT",
+    "maker": "Lite-On",
+    "note": "blue",
+    "uuid": "15dd8a34-0c33-436a-b8c3-1f6f9cef8464"
+  },
+  {
+    "ref": "R13",
+    "lib": "Device:R",
+    "value": "2.2k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "LED_DATA",
+      "2": "LED_A3"
+    },
+    "sch": [
+      2,
+      235,
+      180
+    ],
+    "pcb": [
+      18,
+      45.5,
+      90
+    ],
+    "mpn": "RC0603FR-072K2L",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "57fd819a-42a6-4cc0-b3d2-f55d8afd351a"
+  },
+  {
+    "ref": "D6",
+    "lib": "Device:LED",
+    "value": "DATA",
+    "fp": "HYDRA:LED_0603_1608Metric",
+    "nets": {
+      "1": "GND",
+      "2": "LED_A3"
+    },
+    "sch": [
+      2,
+      235,
+      205
+    ],
+    "pcb": [
+      18,
+      48,
+      0
+    ],
+    "mpn": "LTST-C190KSKT",
+    "maker": "Lite-On",
+    "note": "yellow",
+    "uuid": "d0318ee8-60a3-4902-9446-3aa4082bb296"
+  },
+  {
+    "ref": "U3",
+    "lib": "Memory_Flash:W25Q128JVS",
+    "value": "W25Q128JVSIQ",
+    "fp": "HYDRA:SOIC-8_5.23x5.23mm_P1.27mm",
+    "nets": {
+      "1": "FLASH_CS",
+      "2": "FLASH_MISO",
+      "3": "FLASH_WP",
+      "4": "GND",
+      "5": "FLASH_MOSI",
+      "6": "FLASH_SCK",
+      "7": "FLASH_HOLD",
+      "8": "+3V3"
+    },
+    "sch": [
+      2,
+      60,
+      65
+    ],
+    "pcb": [
+      56,
+      40,
+      0
+    ],
+    "mpn": "W25Q128JVSIQ",
+    "maker": "Winbond",
+    "note": "",
+    "uuid": "19c31109-5baa-414a-b06e-a3f7995aff36"
+  },
+  {
+    "ref": "C17",
+    "lib": "Device:C",
+    "value": "100n",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      2,
+      100,
+      40
+    ],
+    "pcb": [
+      56,
+      34,
+      0
+    ],
+    "mpn": "GRM188R71C104KA01D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "1ebc5617-d90a-476c-85ed-c1c23cd550c0"
+  },
+  {
+    "ref": "C18",
+    "lib": "Device:C",
+    "value": "4.7u",
+    "fp": "HYDRA:C_0805_2012Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      2,
+      125,
+      40
+    ],
+    "pcb": [
+      60,
+      34,
+      0
+    ],
+    "mpn": "GRM21BR71A475KA73L",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "735374c1-54e4-4b24-8b52-2da920466856"
+  },
+  {
+    "ref": "R14",
+    "lib": "Device:R",
+    "value": "10k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "FLASH_CS",
+      "2": "+3V3"
+    },
+    "sch": [
+      2,
+      35,
+      105
+    ],
+    "pcb": [
+      52,
+      47,
+      90
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "0461d08a-8c34-4c6f-a509-5cb08f6e5cf9"
+  },
+  {
+    "ref": "R15",
+    "lib": "Device:R",
+    "value": "10k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "FLASH_WP",
+      "2": "+3V3"
+    },
+    "sch": [
+      2,
+      75,
+      105
+    ],
+    "pcb": [
+      56,
+      47,
+      90
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "c7bf4bd9-6aa7-4d3f-b3ee-b44f1f7b0baa"
+  },
+  {
+    "ref": "R16",
+    "lib": "Device:R",
+    "value": "10k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "FLASH_HOLD",
+      "2": "+3V3"
+    },
+    "sch": [
+      2,
+      115,
+      105
+    ],
+    "pcb": [
+      60,
+      47,
+      90
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "0f4e86ca-6c56-46ab-a2c6-f46917414d11"
+  },
+  {
+    "ref": "U4",
+    "lib": "Sensor:BME280",
+    "value": "BME280",
+    "fp": "HYDRA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "BME_SDA",
+      "4": "BME_SCL",
+      "5": "BME_ADDR",
+      "6": "+3V3",
+      "7": "GND",
+      "8": "+3V3"
+    },
+    "sch": [
+      2,
+      205,
+      65
+    ],
+    "pcb": [
+      68,
+      44,
+      0
+    ],
+    "mpn": "BME280",
+    "maker": "Bosch Sensortec",
+    "note": "I2C3 adresse7bits0x77, CSB1 SDO1",
+    "uuid": "c6dfa62b-aec9-4d8d-bc41-0ab9de47eb9e"
+  },
+  {
+    "ref": "C19",
+    "lib": "Device:C",
+    "value": "100n",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      2,
+      245,
+      35
+    ],
+    "pcb": [
+      67,
+      40,
+      0
+    ],
+    "mpn": "GRM188R71C104KA01D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "394bb6c0-ed96-4c2b-bfaf-095c5d7ce8a4"
+  },
+  {
+    "ref": "C20",
+    "lib": "Device:C",
+    "value": "100n",
+    "fp": "HYDRA:C_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      2,
+      245,
+      65
+    ],
+    "pcb": [
+      71,
+      44,
+      90
+    ],
+    "mpn": "GRM188R71C104KA01D",
+    "maker": "Murata",
+    "note": "",
+    "uuid": "59c4d0ff-4c28-4570-864d-b1cd5c6474ae"
+  },
+  {
+    "ref": "R17",
+    "lib": "Device:R",
+    "value": "4.7k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "BME_SDA",
+      "2": "+3V3"
+    },
+    "sch": [
+      2,
+      185,
+      105
+    ],
+    "pcb": [
+      64,
+      43,
+      90
+    ],
+    "mpn": "RC0603FR-074K7L",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "e86c2038-4a74-4354-a64b-cd6c0ffb0cfc"
+  },
+  {
+    "ref": "R18",
+    "lib": "Device:R",
+    "value": "4.7k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "BME_SCL",
+      "2": "+3V3"
+    },
+    "sch": [
+      2,
+      220,
+      105
+    ],
+    "pcb": [
+      64,
+      47,
+      90
+    ],
+    "mpn": "RC0603FR-074K7L",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "24af9a42-4024-444f-8240-032223620edc"
+  },
+  {
+    "ref": "R19",
+    "lib": "Device:R",
+    "value": "10k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "BME_ADDR",
+      "2": "+3V3"
+    },
+    "sch": [
+      2,
+      250,
+      105
+    ],
+    "pcb": [
+      70,
+      49,
+      0
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "c30a1cb3-474a-43a4-b525-669128560275"
+  },
+  {
+    "ref": "J2",
+    "lib": "Connector_Generic:Conn_01x04",
+    "value": "POWER I2C ALERT",
+    "fp": "HYDRA:Molex_Micro-Latch_53253-0470_1x04_P2.00mm_Vertical",
+    "nets": {
+      "1": "PB_SDA",
+      "2": "PB_SCL",
+      "3": "INA_ALERT",
+      "4": "GND"
+    },
+    "sch": [
+      3,
+      45,
+      45
+    ],
+    "pcb": [
+      23,
+      8,
+      0
+    ],
+    "mpn": "53253-0470",
+    "maker": "Molex",
+    "note": "",
+    "uuid": "96679417-4982-4cf1-a6d6-8414f946fbbe"
+  },
+  {
+    "ref": "R20",
+    "lib": "Device:R",
+    "value": "47",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "PB_SDA",
+      "2": "PB_SDA_MCU"
+    },
+    "sch": [
+      3,
+      85,
+      40
+    ],
+    "pcb": [
+      27,
+      13,
+      90
+    ],
+    "mpn": "RC0603FR-0747RL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "ea1dfaae-99f8-4f52-a523-d4ef8c39c512"
+  },
+  {
+    "ref": "R21",
+    "lib": "Device:R",
+    "value": "47",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "PB_SCL",
+      "2": "PB_SCL_MCU"
+    },
+    "sch": [
+      3,
+      115,
+      40
+    ],
+    "pcb": [
+      31,
+      13,
+      90
+    ],
+    "mpn": "RC0603FR-0747RL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "c39461c2-6558-4e49-904c-dcf8be2a614b"
+  },
+  {
+    "ref": "R22",
+    "lib": "Device:R",
+    "value": "1k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "INA_ALERT",
+      "2": "INA_ALERT_MCU"
+    },
+    "sch": [
+      3,
+      145,
+      40
+    ],
+    "pcb": [
+      35,
+      13,
+      90
+    ],
+    "mpn": "RC0603FR-071KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "7d776e57-b05c-40be-8d9b-87178f49d6ef"
+  },
+  {
+    "ref": "R23",
+    "lib": "Device:R",
+    "value": "2.2k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "PB_SDA",
+      "2": "+3V3"
+    },
+    "sch": [
+      3,
+      85,
+      70
+    ],
+    "pcb": [
+      23,
+      14,
+      90
+    ],
+    "mpn": "RC0603FR-072K2L",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "cdbcb37c-2a92-41f1-b91d-5b59704e7b82"
+  },
+  {
+    "ref": "R24",
+    "lib": "Device:R",
+    "value": "2.2k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "PB_SCL",
+      "2": "+3V3"
+    },
+    "sch": [
+      3,
+      115,
+      70
+    ],
+    "pcb": [
+      27,
+      17,
+      90
+    ],
+    "mpn": "RC0603FR-072K2L",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "2da749b2-aa6d-466d-af79-453f4f22d0b6"
+  },
+  {
+    "ref": "R25",
+    "lib": "Device:R",
+    "value": "10k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "INA_ALERT",
+      "2": "+3V3"
+    },
+    "sch": [
+      3,
+      145,
+      70
+    ],
+    "pcb": [
+      31,
+      17,
+      90
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "d28bbf36-86b4-4a6b-a858-9d6809ad5377"
+  },
+  {
+    "ref": "J3",
+    "lib": "Connector_Generic:Conn_01x03",
+    "value": "RPi UART 3V3",
+    "fp": "HYDRA:Molex_Micro-Latch_53253-0370_1x03_P2.00mm_Vertical",
+    "nets": {
+      "1": "UART_TX",
+      "2": "UART_RX",
+      "3": "GND"
+    },
+    "sch": [
+      3,
+      205,
+      40
+    ],
+    "pcb": [
+      37,
+      8,
+      0
+    ],
+    "mpn": "53253-0370",
+    "maker": "Molex",
+    "note": "vers Navigator SERIAL3: 1 vers RX3, 2 vers TX2, 3 vers GND6",
+    "uuid": "8ab22390-0483-4ae2-8733-722662cc6a09"
+  },
+  {
+    "ref": "R26",
+    "lib": "Device:R",
+    "value": "1k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "STM_TX",
+      "2": "UART_TX"
+    },
+    "sch": [
+      3,
+      235,
+      40
+    ],
+    "pcb": [
+      41,
+      13,
+      90
+    ],
+    "mpn": "RC0603FR-071KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "d0d1d081-1aa9-4a12-8682-b54087b26e4d"
+  },
+  {
+    "ref": "R27",
+    "lib": "Device:R",
+    "value": "1k",
+    "fp": "HYDRA:R_0603_1608Metric",
+    "nets": {
+      "1": "UART_RX",
+      "2": "STM_RX"
+    },
+    "sch": [
+      3,
+      265,
+      40
+    ],
+    "pcb": [
+      45,
+      13,
+      90
+    ],
+    "mpn": "RC0603FR-071KL",
+    "maker": "Yageo",
+    "note": "",
+    "uuid": "68f2b815-ee7f-4acc-816e-756ebca06317"
+  },
+  {
+    "ref": "J4",
+    "lib": "Connector_Generic:Conn_01x10",
+    "value": "8 GPIO V2 LOGIC",
+    "fp": "HYDRA:Molex_Micro-Latch_53253-1070_1x10_P2.00mm_Vertical",
+    "nets": {
+      "1": "EXT_PWM1",
+      "2": "EXT_PWM2",
+      "3": "EXT_PWM3",
+      "4": "EXT_PWM4",
+      "5": "EXT_GPIO1",
+      "6": "EXT_GPIO2",
+      "7": "EXT_ADC1",
+      "8": "EXT_ADC2",
+      "9": "GND",
+      "10": "+3V3"
+    },
+    "sch": [
+      3,
+      205,
+      125
+    ],
+    "pcb": [
+      49,
+      8,
+      0
+    ],
+    "mpn": "53253-1070",
+    "maker": "Molex",
+    "note": "3V3 logique max50mA; aucune puissance actionneur",
+    "uuid": "ff34e0be-243b-4a56-85f5-567e0936087c"
+  },
+  {
+    "ref": "J6",
+    "lib": "Connector_Generic:Conn_02x05_Odd_Even",
+    "value": "SWD 2.54mm",
+    "fp": "HYDRA:PinHeader_2x05_P2.54mm_Vertical",
+    "nets": {
+      "1": "+3V3",
+      "2": "SWDIO",
+      "3": "GND",
+      "4": "SWCLK",
+      "5": "GND",
+      "6": "SWO",
+      "7": null,
+      "8": null,
+      "9": "GND",
+      "10": "NRST"
+    },
+    "sch": [
+      3,
+      60,
+      130
+    ],
+    "pcb": [
+      5,
+      32,
+      0
+    ],
+    "mpn": "61301021121",
+    "maker": "Wurth",
+    "note": "Standard ARM signaux mais pas pas1.27: adaptateur requis",
+    "uuid": "b9c78105-de4e-4c5e-8ff7-c9973f4de417"
+  },
+  {
+    "ref": "TP1",
+    "lib": "Connector:TestPoint",
+    "value": "+5V_SYS",
+    "fp": "HYDRA:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "+5V_SYS"
+    },
+    "sch": [
+      3,
+      35,
+      180
+    ],
+    "pcb": [
+      15,
+      28,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "Test pad",
+    "uuid": "f521d44f-7f4b-479e-896d-84e38a335e99"
+  },
+  {
+    "ref": "TP2",
+    "lib": "Connector:TestPoint",
+    "value": "+3V3",
+    "fp": "HYDRA:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "+3V3"
+    },
+    "sch": [
+      3,
+      83,
+      180
+    ],
+    "pcb": [
+      18,
+      32,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "Test pad",
+    "uuid": "36004526-a855-43d5-9d65-56566db6db2e"
+  },
+  {
+    "ref": "TP3",
+    "lib": "Connector:TestPoint",
+    "value": "GND",
+    "fp": "HYDRA:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "GND"
+    },
+    "sch": [
+      3,
+      131,
+      180
+    ],
+    "pcb": [
+      19,
+      29,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "Test pad",
+    "uuid": "12fbee26-a767-447e-b584-07d4bc5f819e"
+  },
+  {
+    "ref": "TP4",
+    "lib": "Connector:TestPoint",
+    "value": "NRST",
+    "fp": "HYDRA:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "NRST"
+    },
+    "sch": [
+      3,
+      179,
+      180
+    ],
+    "pcb": [
+      21,
+      34,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "Test pad",
+    "uuid": "2de7dd6d-4e81-4860-8d85-f581eaf176fc"
+  },
+  {
+    "ref": "TP5",
+    "lib": "Connector:TestPoint",
+    "value": "UART_TX",
+    "fp": "HYDRA:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "UART_TX"
+    },
+    "sch": [
+      3,
+      227,
+      180
+    ],
+    "pcb": [
+      39,
+      18,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "Test pad",
+    "uuid": "266efd4e-671e-4dd7-8e6d-309671fc55a6"
+  },
+  {
+    "ref": "TP6",
+    "lib": "Connector:TestPoint",
+    "value": "UART_RX",
+    "fp": "HYDRA:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "UART_RX"
+    },
+    "sch": [
+      3,
+      35,
+      205
+    ],
+    "pcb": [
+      43,
+      18,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "Test pad",
+    "uuid": "d13db8a5-d280-4280-8423-6f83fe15637d"
+  },
+  {
+    "ref": "TP7",
+    "lib": "Connector:TestPoint",
+    "value": "PB_SDA",
+    "fp": "HYDRA:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "PB_SDA"
+    },
+    "sch": [
+      3,
+      83,
+      205
+    ],
+    "pcb": [
+      18,
+      8,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "Test pad",
+    "uuid": "8d562571-0296-4f40-8249-0fc40348fbe6"
+  },
+  {
+    "ref": "TP8",
+    "lib": "Connector:TestPoint",
+    "value": "PB_SCL",
+    "fp": "HYDRA:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "PB_SCL"
+    },
+    "sch": [
+      3,
+      131,
+      205
+    ],
+    "pcb": [
+      33,
+      12,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "Test pad",
+    "uuid": "3a904f26-4a41-40d5-9d92-0d0aa84d60b1"
+  },
+  {
+    "ref": "TP9",
+    "lib": "Connector:TestPoint",
+    "value": "INA_ALERT",
+    "fp": "HYDRA:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "INA_ALERT"
+    },
+    "sch": [
+      3,
+      179,
+      205
+    ],
+    "pcb": [
+      37,
+      20,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "Test pad",
+    "uuid": "518cfd16-e844-4cb5-b14f-694b9c929e26"
+  },
+  {
+    "ref": "TP10",
+    "lib": "Connector:TestPoint",
+    "value": "BOOT0",
+    "fp": "HYDRA:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "BOOT0"
+    },
+    "sch": [
+      3,
+      227,
+      205
+    ],
+    "pcb": [
+      33,
+      17,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "Test pad",
+    "uuid": "19642313-05e3-4328-9960-7f0495a800ef"
+  },
+  {
+    "ref": "#FLG1",
+    "lib": "power:PWR_FLAG",
+    "value": "PWR_FLAG",
+    "fp": "",
+    "nets": {
+      "1": "GND"
+    },
+    "sch": [
+      1,
+      40,
+      220
+    ],
+    "pcb": [
+      -7,
+      -5,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "",
+    "uuid": "52f1f3c4-f476-4401-afbe-b62c6dc5196f"
+  },
+  {
+    "ref": "#FLG2",
+    "lib": "power:PWR_FLAG",
+    "value": "PWR_FLAG",
+    "fp": "",
+    "nets": {
+      "1": "+5V_SYS"
+    },
+    "sch": [
+      1,
+      80,
+      220
+    ],
+    "pcb": [
+      -7,
+      -5,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "",
+    "uuid": "b1a0afd4-61ef-4663-9772-93e96fbfd213"
+  },
+  {
+    "ref": "#FLG3",
+    "lib": "power:PWR_FLAG",
+    "value": "PWR_FLAG",
+    "fp": "",
+    "nets": {
+      "1": "VDDA"
+    },
+    "sch": [
+      1,
+      120,
+      220
+    ],
+    "pcb": [
+      -7,
+      -5,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "",
+    "uuid": "70cc1104-5de0-4b71-9bf1-5c3dd011108c"
+  },
+  {
+    "ref": "H1",
+    "lib": "Mechanical:MountingHole",
+    "value": "M2.5 NPTH",
+    "fp": "HYDRA:MountingHole_2.7mm_M2.5",
+    "nets": {},
+    "sch": [
+      3,
+      220,
+      225
+    ],
+    "pcb": [
+      3.5,
+      3.5,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "",
+    "uuid": "eb4733e5-ae13-4af6-9d0d-03d95065f146"
+  },
+  {
+    "ref": "H2",
+    "lib": "Mechanical:MountingHole",
+    "value": "M2.5 NPTH",
+    "fp": "HYDRA:MountingHole_2.7mm_M2.5",
+    "nets": {},
+    "sch": [
+      3,
+      235,
+      225
+    ],
+    "pcb": [
+      71.5,
+      3.5,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "",
+    "uuid": "e7f7a021-0436-40bb-8144-ba81f3bd4f77"
+  },
+  {
+    "ref": "H3",
+    "lib": "Mechanical:MountingHole",
+    "value": "M2.5 NPTH",
+    "fp": "HYDRA:MountingHole_2.7mm_M2.5",
+    "nets": {},
+    "sch": [
+      3,
+      250,
+      225
+    ],
+    "pcb": [
+      3.5,
+      56.5,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "",
+    "uuid": "e5b571a7-1949-41dc-afbb-5dbc4bf59c17"
+  },
+  {
+    "ref": "H4",
+    "lib": "Mechanical:MountingHole",
+    "value": "M2.5 NPTH",
+    "fp": "HYDRA:MountingHole_2.7mm_M2.5",
+    "nets": {},
+    "sch": [
+      3,
+      265,
+      225
+    ],
+    "pcb": [
+      71.5,
+      56.5,
+      0
+    ],
+    "mpn": "",
+    "maker": "",
+    "note": "",
+    "uuid": "0eb8c55b-b120-48ee-8590-63aa758d5c10"
+  }
+]

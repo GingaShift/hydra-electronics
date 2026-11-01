@@ -1,0 +1,12 @@
+{
+  "GND": {
+    "layer": "In1.Cu",
+    "filled_outer_polygons": 1,
+    "filled": true
+  },
+  "+3V3": {
+    "layer": "In2.Cu",
+    "filled_outer_polygons": 1,
+    "filled": true
+  }
+}

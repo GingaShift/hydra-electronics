@@ -1,0 +1,52 @@
+[
+  {
+    "filename": "Brand Kit HYDRA(2).pdf",
+    "sha256": "998ecbb07c29b3756a9c9d1097324ace0617d9ae499a524df11ac4056d07d6ab",
+    "bytes": 830060
+  },
+  {
+    "filename": "Elec_Hydra(1).kicad_pro",
+    "sha256": "e5cb1cdb2f7e50d12c1c7d3c08c33fa15ee04b09b5d3819e1f1a30235cfff0fd",
+    "bytes": 15936
+  },
+  {
+    "filename": "Elec_Hydra(1).kicad_pcb",
+    "sha256": "9732c37867cd081621490a6345db7caeb4599f087175afcdd57d0df064127de4",
+    "bytes": 79
+  },
+  {
+    "filename": "Elec_Hydra(1).kicad_sch",
+    "sha256": "9b96d7c4a099bba647e5777d0e9c3285c2cf77097eeab0b914ea0687b9cd4baa",
+    "bytes": 333435
+  },
+  {
+    "filename": "Elec_Hydra(2).kicad_sch",
+    "sha256": "9b96d7c4a099bba647e5777d0e9c3285c2cf77097eeab0b914ea0687b9cd4baa",
+    "bytes": 333435
+  },
+  {
+    "filename": "Capteurs(2).kicad_sch",
+    "sha256": "82c4a18d4874549b6b1ff810bae5f7afa954cfad6fbbe9a0cc181cf68b8c8119",
+    "bytes": 43769
+  },
+  {
+    "filename": "Capteurs(1).kicad_sch",
+    "sha256": "82c4a18d4874549b6b1ff810bae5f7afa954cfad6fbbe9a0cc181cf68b8c8119",
+    "bytes": 43769
+  },
+  {
+    "filename": "Elec_Hydra(2).kicad_pcb",
+    "sha256": "9732c37867cd081621490a6345db7caeb4599f087175afcdd57d0df064127de4",
+    "bytes": 79
+  },
+  {
+    "filename": "Brand Kit HYDRA(3).pdf",
+    "sha256": "998ecbb07c29b3756a9c9d1097324ace0617d9ae499a524df11ac4056d07d6ab",
+    "bytes": 830060
+  },
+  {
+    "filename": "Elec_Hydra(2).kicad_pro",
+    "sha256": "e5cb1cdb2f7e50d12c1c7d3c08c33fa15ee04b09b5d3819e1f1a30235cfff0fd",
+    "bytes": 15936
+  }
+]

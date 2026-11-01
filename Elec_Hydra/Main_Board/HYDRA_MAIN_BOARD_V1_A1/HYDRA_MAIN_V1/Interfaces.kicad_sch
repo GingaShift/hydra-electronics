@@ -1,0 +1,5813 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4a5d1b73-343c-48b9-a1e3-5b2ed9973378")
+	(paper "A3")
+	(title_block
+		(title "HYDRA MAIN BOARD V1 — Interfaces")
+		(date "2026-10-27")
+		(rev "A1 COMPACT")
+		(company "HYDRA / Proteus + HydroVinci")
+	)
+	(lib_symbols
+		(symbol "HYDRA:Connector_Generic_Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Connector_Generic_Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "HYDRA:Connector_Generic_Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Connector_Generic_Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "HYDRA:Connector_Generic_Conn_01x10"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x10"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Connector_Generic_Conn_01x10_1_1"
+				(rectangle
+					(start -1.27 11.43)
+					(end 1.27 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "HYDRA:Connector_Generic_Conn_02x05_Odd_Even"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x05_Odd_Even"
+				(at 1.27 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Connector_Generic_Conn_02x05_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "HYDRA:Connector_TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Connector_TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Connector_TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "HYDRA:Device_R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Device_R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Device_R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "HYDRA:Mechanical_MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Mechanical_MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "All cable pin numbering: connector mating face, confirm latch orientation. INA pullups only here; no hotplug."
+		(exclude_from_sim no)
+		(at 145 16 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+		)
+		(uuid "8d45a30a-53dc-4f0a-ac05-9156daf45dc9")
+	)
+	(no_connect
+		(at 54.61 132.08)
+		(uuid "11594a9d-0608-410f-8945-c49758ed1a2e")
+	)
+	(no_connect
+		(at 67.31 132.08)
+		(uuid "340a14a0-e4b4-4067-bf61-0db09dbd094a")
+	)
+	(wire
+		(pts
+			(xy 144.78 35.56) (xy 144.78 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ab29db-e297-426e-9040-8242a4a16983")
+	)
+	(wire
+		(pts
+			(xy 35.56 180.34) (xy 35.56 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c628e0f-b346-47c3-9cc6-4617fa695cb9")
+	)
+	(wire
+		(pts
+			(xy 199.39 119.38) (xy 195.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e05eaad-2e34-4c8b-8415-4b0a63e5572d")
+	)
+	(wire
+		(pts
+			(xy 199.39 121.92) (xy 195.58 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13464ef9-8aa2-401e-a103-41226f3b122f")
+	)
+	(wire
+		(pts
+			(xy 199.39 39.37) (xy 195.58 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13df4067-9c34-4f4e-b8da-e665de670685")
+	)
+	(wire
+		(pts
+			(xy 54.61 134.62) (xy 50.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18dc6473-4d21-476b-8dcb-8dc4a88b7ca4")
+	)
+	(wire
+		(pts
+			(xy 199.39 116.84) (xy 195.58 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba3d659-5b8f-433b-9eeb-f16737fe77c0")
+	)
+	(wire
+		(pts
+			(xy 130.81 180.34) (xy 130.81 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e726cfd-cc0d-4c91-bd8a-f57feb07cc3d")
+	)
+	(wire
+		(pts
+			(xy 179.07 204.47) (xy 179.07 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f744d3-4bc7-46b2-b71c-71a473600dcb")
+	)
+	(wire
+		(pts
+			(xy 67.31 127) (xy 71.12 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b25bf4-b391-47a3-8214-e62bc836730d")
+	)
+	(wire
+		(pts
+			(xy 179.07 180.34) (xy 179.07 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27132af0-fb8f-4aa9-af38-26df14400925")
+	)
+	(wire
+		(pts
+			(xy 199.39 114.3) (xy 195.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277848ac-649f-4cd5-a712-9e14bd381029")
+	)
+	(wire
+		(pts
+			(xy 39.37 44.45) (xy 35.56 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5964a3-56d3-4faa-85db-0133e0b32144")
+	)
+	(wire
+		(pts
+			(xy 130.81 204.47) (xy 130.81 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0a3edd-4b29-42e2-8ab2-75867dcf0aef")
+	)
+	(wire
+		(pts
+			(xy 82.55 204.47) (xy 82.55 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32243da6-d518-45cb-ae40-cd0d5258143f")
+	)
+	(wire
+		(pts
+			(xy 85.09 66.04) (xy 85.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368639a7-6c29-40f3-a12c-c5d8bcffb457")
+	)
+	(wire
+		(pts
+			(xy 67.31 129.54) (xy 71.12 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec8ba8e-9c71-44b9-9bfd-fd4f2f421745")
+	)
+	(wire
+		(pts
+			(xy 82.55 180.34) (xy 82.55 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4507951c-ba58-4e23-abc9-d0c8faaf0e39")
+	)
+	(wire
+		(pts
+			(xy 199.39 129.54) (xy 195.58 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46cf10a6-a49d-4017-92e8-e1d49ce69369")
+	)
+	(wire
+		(pts
+			(xy 39.37 46.99) (xy 35.56 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49df5597-8a0e-47b9-9216-18d1b4a863e1")
+	)
+	(wire
+		(pts
+			(xy 67.31 134.62) (xy 71.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbae233-6dfb-450a-8d0c-2c94c2e980b8")
+	)
+	(wire
+		(pts
+			(xy 199.39 137.16) (xy 195.58 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc8e8e2-1213-4d02-be0a-9466103d67ac")
+	)
+	(wire
+		(pts
+			(xy 199.39 36.83) (xy 195.58 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51549ec8-2a15-44f2-8aa4-e3a46d8b5904")
+	)
+	(wire
+		(pts
+			(xy 85.09 43.18) (xy 85.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dfdcbc8-1780-453c-b2a9-71d017cebf51")
+	)
+	(wire
+		(pts
+			(xy 199.39 134.62) (xy 195.58 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1fba16-229f-481b-a483-6288420cd00d")
+	)
+	(wire
+		(pts
+			(xy 39.37 41.91) (xy 35.56 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f80983d-2dfb-42b1-bd9e-a68b0cdd43db")
+	)
+	(wire
+		(pts
+			(xy 227.33 180.34) (xy 227.33 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6133c0b1-e841-432d-8e77-7be4da4d5473")
+	)
+	(wire
+		(pts
+			(xy 234.95 35.56) (xy 234.95 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73bd1142-1d75-4234-a1a7-a5babcea4a28")
+	)
+	(wire
+		(pts
+			(xy 265.43 43.18) (xy 265.43 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7572c39b-2dff-445c-a749-a29be6460ec8")
+	)
+	(wire
+		(pts
+			(xy 265.43 35.56) (xy 265.43 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db3d7c7-8565-490e-9f3b-0f63f83f7a24")
+	)
+	(wire
+		(pts
+			(xy 199.39 124.46) (xy 195.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811dc0ae-033f-4c78-b190-02721da2dbe5")
+	)
+	(wire
+		(pts
+			(xy 39.37 49.53) (xy 35.56 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83aa8bdd-fa0a-4f7b-a7a4-78c5053cc900")
+	)
+	(wire
+		(pts
+			(xy 234.95 43.18) (xy 234.95 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a431cc-c5e5-4b8a-8e9e-8038cee01db6")
+	)
+	(wire
+		(pts
+			(xy 85.09 35.56) (xy 85.09 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8add8914-e30b-474a-8aab-72d01ac35b6c")
+	)
+	(wire
+		(pts
+			(xy 199.39 132.08) (xy 195.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc4b578-a984-4413-b0fa-f7538a60df20")
+	)
+	(wire
+		(pts
+			(xy 227.33 204.47) (xy 227.33 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c5e0c6-5fa4-40fe-8a59-8bc2620c3f97")
+	)
+	(wire
+		(pts
+			(xy 144.78 73.66) (xy 144.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a8bb7a-7053-4f79-ab87-0db25150d570")
+	)
+	(wire
+		(pts
+			(xy 144.78 43.18) (xy 144.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5d6217-4449-44c2-a294-c1e9c821d767")
+	)
+	(wire
+		(pts
+			(xy 115.57 35.56) (xy 115.57 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44e1cf9-2dfc-4699-9ea9-8e03926b8053")
+	)
+	(wire
+		(pts
+			(xy 54.61 124.46) (xy 50.8 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab97ac4c-2e4f-4932-8218-0509c2d429e4")
+	)
+	(wire
+		(pts
+			(xy 199.39 127) (xy 195.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bc6a8a-c541-469d-8f33-a573d95254d3")
+	)
+	(wire
+		(pts
+			(xy 115.57 73.66) (xy 115.57 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48ff058-6658-47c0-83ca-70fcdac4cbec")
+	)
+	(wire
+		(pts
+			(xy 85.09 73.66) (xy 85.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c930e5ab-1840-4471-ac9b-6456e0f74f02")
+	)
+	(wire
+		(pts
+			(xy 35.56 204.47) (xy 35.56 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7aef5a-afc5-4814-858b-6a98b1004a17")
+	)
+	(wire
+		(pts
+			(xy 115.57 66.04) (xy 115.57 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b272a1-8445-4bf0-96f5-9e6947cf1e31")
+	)
+	(wire
+		(pts
+			(xy 54.61 127) (xy 50.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b30ba7-4e8f-4c2c-bf50-404719fd1662")
+	)
+	(wire
+		(pts
+			(xy 67.31 124.46) (xy 71.12 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbacf88f-4235-4215-b18b-7fa5765fa17c")
+	)
+	(wire
+		(pts
+			(xy 115.57 43.18) (xy 115.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca3c317-83d6-41e5-9af1-d31a92258a94")
+	)
+	(wire
+		(pts
+			(xy 144.78 66.04) (xy 144.78 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd08035-da09-489d-a2e4-4f6db78cfa40")
+	)
+	(wire
+		(pts
+			(xy 199.39 41.91) (xy 195.58 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5116dc-43c0-4488-82d1-2a0f8941c68d")
+	)
+	(wire
+		(pts
+			(xy 54.61 129.54) (xy 50.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a54599-726a-4cbd-a503-012a63a8e17c")
+	)
+	(global_label "PB_SCL"
+		(shape bidirectional)
+		(at 115.57 31.75 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "05c5163c-9a4b-40bf-8bf9-11944609e7a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 195.58 41.91 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "0cbc4e21-69aa-412e-ac52-a2f5e565aad4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 50.8 134.62 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "127b9e88-b5b2-4347-bd3a-95893a8f3412")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 82.55 184.15 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "15809627-bb2a-406d-b21d-44df055078a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "EXT_PWM3"
+		(shape bidirectional)
+		(at 195.58 119.38 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "18ee9847-7610-4c39-b12c-9ea91bc39eea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "PB_SCL"
+		(shape bidirectional)
+		(at 130.81 208.28 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "1f14407f-c311-4dff-afd8-e14de410d8fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "INA_ALERT"
+		(shape bidirectional)
+		(at 179.07 208.28 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "20f9d0f4-80aa-4f3d-be57-4ed07c743fbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "NRST"
+		(shape bidirectional)
+		(at 71.12 134.62 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "24b2d0fc-6f86-4285-ac90-653d4f85da9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 195.58 134.62 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "2ebdb6c7-fd33-4626-adc6-3eb9c950d7cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 130.81 184.15 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "3699b3e9-1fa9-430e-a559-0f6d5b57dc81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "PB_SCL"
+		(shape bidirectional)
+		(at 115.57 62.23 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "3b873a5d-bd71-4271-8db9-418752e17639")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape bidirectional)
+		(at 35.56 208.28 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "4bb6bc40-2bb3-4f5c-9e25-2d343d9b83f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "NRST"
+		(shape bidirectional)
+		(at 179.07 184.15 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "4f721d15-9c58-4d3e-aa97-1d1efd6ca068")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "EXT_ADC1"
+		(shape bidirectional)
+		(at 195.58 129.54 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "4fbebc4f-1409-4b04-af43-632adb44454b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "PB_SCL_MCU"
+		(shape bidirectional)
+		(at 115.57 46.99 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "55183cb6-4a85-4c99-b1bf-5e8a0a784a04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "INA_ALERT"
+		(shape bidirectional)
+		(at 144.78 62.23 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "5bbd983b-55b0-4870-8cc2-15abeeecc438")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "SWDIO"
+		(shape bidirectional)
+		(at 71.12 124.46 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "5e17dbbb-dae3-49d3-ad7a-b3d3b85b83e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "PB_SDA_MCU"
+		(shape bidirectional)
+		(at 85.09 46.99 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "6ef3ef40-42a1-4924-9deb-b76957ea1917")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "EXT_ADC2"
+		(shape bidirectional)
+		(at 195.58 132.08 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "70f971d0-d65b-4ef0-963d-1d09a56881eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 50.8 129.54 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "718cfcef-070e-4033-a281-17c4bb94b907")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 85.09 77.47 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "7485a536-da56-4a2f-ab65-089344854081")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "EXT_PWM1"
+		(shape bidirectional)
+		(at 195.58 114.3 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "7cb57c54-a90f-438f-a571-d970665d1831")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "EXT_PWM4"
+		(shape bidirectional)
+		(at 195.58 121.92 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "7ffe7b72-eff4-49ab-b80d-79bb09df2ae8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "PB_SDA"
+		(shape bidirectional)
+		(at 85.09 62.23 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "80617622-7277-41ac-acc2-24a46ce071e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape bidirectional)
+		(at 195.58 39.37 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "8182eadc-0672-498a-9246-1ad7580a2b2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 115.57 77.47 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "88a02360-0885-4312-935f-d8b745ba81d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "STM_RX"
+		(shape bidirectional)
+		(at 265.43 46.99 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "8a107b41-28b4-4e09-ba4e-2b3b3affa96d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.43 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape bidirectional)
+		(at 234.95 46.99 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "9a455d98-379c-48fd-ac11-352c4517a152")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.95 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "PB_SCL"
+		(shape bidirectional)
+		(at 35.56 44.45 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "9c2042c2-f73e-4220-9cdf-9840cc0fe627")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "PB_SDA"
+		(shape bidirectional)
+		(at 82.55 208.28 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "a3988376-ecbe-4822-8bb0-7dc10c212dfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "EXT_GPIO1"
+		(shape bidirectional)
+		(at 195.58 124.46 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "aae7abe3-ddaf-437b-8641-d4227422f8db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "SWCLK"
+		(shape bidirectional)
+		(at 71.12 127 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "af1c83c3-10bc-44df-94e3-645e15471458")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "PB_SDA"
+		(shape bidirectional)
+		(at 35.56 41.91 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "b22de57e-95c8-4308-8985-7b11c75e3ec6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "EXT_GPIO2"
+		(shape bidirectional)
+		(at 195.58 127 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "b618cb4a-f95b-437c-a9be-1bfc225610cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 195.58 137.16 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "b9d31811-2e03-4948-9597-09bf2068ed3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "EXT_PWM2"
+		(shape bidirectional)
+		(at 195.58 116.84 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "cc10cc5d-7345-43e7-b8e8-29a23117491d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "PB_SDA"
+		(shape bidirectional)
+		(at 85.09 31.75 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "cd68571c-01e9-4f65-851e-06bc71cf99a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "INA_ALERT"
+		(shape bidirectional)
+		(at 35.56 46.99 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "cdd5f520-c3f2-4b75-aece-cd5e217240ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 35.56 49.53 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "cefeb761-12e4-4fac-b875-5fce489c593b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "INA_ALERT_MCU"
+		(shape bidirectional)
+		(at 144.78 46.99 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "d5f0010d-2038-4a6a-8a0d-5ca13096bf73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 144.78 77.47 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "dad33785-11a7-46d6-94a0-3415617945a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape bidirectional)
+		(at 265.43 31.75 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "dc50c633-5d44-430e-a823-ff6bda144694")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.43 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "INA_ALERT"
+		(shape bidirectional)
+		(at 144.78 31.75 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "e0a9e7ef-0e9d-4966-a58f-a48e33fb73a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape bidirectional)
+		(at 195.58 36.83 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "ea1b6488-7c92-4b3a-8082-428fb359240e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "BOOT0"
+		(shape bidirectional)
+		(at 227.33 208.28 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "eb3a713e-f938-44c8-856f-6607699f54e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "SWO"
+		(shape bidirectional)
+		(at 71.12 129.54 0)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "ef83643a-e26e-4e25-a53f-95134b748b36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "+5V_SYS"
+		(shape bidirectional)
+		(at 35.56 184.15 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "f259c9b3-972c-4478-9b75-50683222ffab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape bidirectional)
+		(at 227.33 184.15 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "f8dcde73-85ed-41b5-926d-cc6634900f64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "STM_TX"
+		(shape bidirectional)
+		(at 234.95 31.75 90)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify left)
+		)
+		(uuid "fd2bda60-d33b-4c52-939b-425f8467b3be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 50.8 127 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "fd7f1e84-769a-4834-96fe-db0afcdf633d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 50.8 124.46 180)
+		(effects
+			(font
+				(size 0.85 0.85)
+			)
+			(justify right)
+		)
+		(uuid "ffb09a22-adad-4a81-abdf-c14a4acbe391")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Mechanical_MountingHole")
+		(at 265.43 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0eb8c55b-b120-48ee-8590-63aa758d5c10")
+		(property "Reference" "H4"
+			(at 276.43 222.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "M2.5 NPTH"
+			(at 276.43 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:MountingHole_2.7mm_M2.5"
+			(at 276.43 226.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.43 228.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 276.43 230.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 276.43 232.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_TestPoint")
+		(at 130.81 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12fbee26-a767-447e-b584-07d4bc5f819e")
+		(property "Reference" "TP3"
+			(at 141.81 178.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 141.81 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:TestPoint_Pad_D1.5mm"
+			(at 141.81 182.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.81 184.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 141.81 186.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 141.81 188.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a989697-941f-418c-bc9b-2602de1a71af")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_TestPoint")
+		(at 227.33 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19642313-05e3-4328-9960-7f0495a800ef")
+		(property "Reference" "TP10"
+			(at 238.33 202.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "BOOT0"
+			(at 238.33 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:TestPoint_Pad_D1.5mm"
+			(at 238.33 206.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.33 208.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 238.33 210.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 238.33 212.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1f42095-de08-48f2-b914-2e52908f0524")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_TestPoint")
+		(at 227.33 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "266efd4e-671e-4dd7-8e6d-309671fc55a6")
+		(property "Reference" "TP5"
+			(at 238.33 178.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "UART_TX"
+			(at 238.33 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:TestPoint_Pad_D1.5mm"
+			(at 238.33 182.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.33 184.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 238.33 186.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 238.33 188.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b911feb4-0346-4906-8fd2-fd022172958f")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Device_R")
+		(at 115.57 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2da749b2-aa6d-466d-af79-453f4f22d0b6")
+		(property "Reference" "R24"
+			(at 126.57 67.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 126.57 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:R_0603_1608Metric"
+			(at 126.57 71.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 126.57 73.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-072K2L"
+			(at 126.57 75.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 126.57 77.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa31242a-3995-4f12-9398-000c71c381bd")
+		)
+		(pin "2"
+			(uuid "d0f01f87-eb70-402e-bde0-4fe862f6ff8f")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_TestPoint")
+		(at 179.07 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2de7dd6d-4e81-4860-8d85-f581eaf176fc")
+		(property "Reference" "TP4"
+			(at 190.07 178.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "NRST"
+			(at 190.07 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:TestPoint_Pad_D1.5mm"
+			(at 190.07 182.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.07 184.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 190.07 186.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 190.07 188.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c12520b-09ad-41a9-9b8c-b36dc8467f74")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_TestPoint")
+		(at 82.55 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36004526-a855-43d5-9d65-56566db6db2e")
+		(property "Reference" "TP2"
+			(at 93.55 178.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 93.55 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:TestPoint_Pad_D1.5mm"
+			(at 93.55 182.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.55 184.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 93.55 186.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 93.55 188.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4d84180-c037-4db0-93d0-a48a1a85c56e")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_TestPoint")
+		(at 130.81 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a904f26-4a41-40d5-9d92-0d0aa84d60b1")
+		(property "Reference" "TP8"
+			(at 141.81 202.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "PB_SCL"
+			(at 141.81 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:TestPoint_Pad_D1.5mm"
+			(at 141.81 206.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.81 208.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 141.81 210.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 141.81 212.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da6807b2-4a8d-4399-b987-7e2d9cfc20bb")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_TestPoint")
+		(at 179.07 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "518cfd16-e844-4cb5-b14f-694b9c929e26")
+		(property "Reference" "TP9"
+			(at 190.07 202.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "INA_ALERT"
+			(at 190.07 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:TestPoint_Pad_D1.5mm"
+			(at 190.07 206.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.07 208.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 190.07 210.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 190.07 212.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2861a015-8b5b-4ee1-8d22-30e4c3a339a0")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Device_R")
+		(at 265.43 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68f2b815-ee7f-4acc-816e-756ebca06317")
+		(property "Reference" "R27"
+			(at 276.43 37.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 276.43 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:R_0603_1608Metric"
+			(at 276.43 41.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.43 43.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 276.43 45.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 276.43 47.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a458dc55-1d2f-4f6c-a895-17a5ad0cf40f")
+		)
+		(pin "2"
+			(uuid "f9bd052b-960a-4094-a3dd-f5fd4567590c")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Device_R")
+		(at 144.78 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d776e57-b05c-40be-8d9b-87178f49d6ef")
+		(property "Reference" "R22"
+			(at 155.78 37.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 155.78 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:R_0603_1608Metric"
+			(at 155.78 41.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 155.78 43.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 155.78 45.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 155.78 47.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54e77609-a61b-4cb1-ab98-19fbcbc54ac9")
+		)
+		(pin "2"
+			(uuid "673402c6-2751-4151-8ae0-e40867d08df7")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_Generic_Conn_01x03")
+		(at 204.47 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ab22390-0483-4ae2-8733-722662cc6a09")
+		(property "Reference" "J3"
+			(at 215.47 37.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "RPi UART 3V3"
+			(at 215.47 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:Molex_Micro-Latch_53253-0370_1x03_P2.00mm_Vertical"
+			(at 215.47 41.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.47 43.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "53253-0370"
+			(at 215.47 45.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 215.47 47.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25608fc1-06cb-4052-8d4d-4afe7e067769")
+		)
+		(pin "2"
+			(uuid "382a4f43-43c0-4106-97c5-f6fefe62dd7a")
+		)
+		(pin "3"
+			(uuid "44441b6c-dc50-4f32-8945-969fab1ff1d6")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_TestPoint")
+		(at 82.55 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d562571-0296-4f40-8249-0fc40348fbe6")
+		(property "Reference" "TP7"
+			(at 93.55 202.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "PB_SDA"
+			(at 93.55 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:TestPoint_Pad_D1.5mm"
+			(at 93.55 206.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.55 208.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 93.55 210.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 93.55 212.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08ec0fef-3053-47d5-bd8f-343f244a9f6a")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_Generic_Conn_01x04")
+		(at 44.45 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96679417-4982-4cf1-a6d6-8414f946fbbe")
+		(property "Reference" "J2"
+			(at 55.45 42.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "POWER I2C ALERT"
+			(at 55.45 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:Molex_Micro-Latch_53253-0470_1x04_P2.00mm_Vertical"
+			(at 55.45 46.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.45 48.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "53253-0470"
+			(at 55.45 50.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 55.45 52.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "639a88cd-a84b-4214-839e-e654cb4e4048")
+		)
+		(pin "2"
+			(uuid "a86fbddf-9a1d-41a2-a0bf-4f8c05926cb8")
+		)
+		(pin "3"
+			(uuid "9e19f3e2-5184-40cf-95f4-164687eadf33")
+		)
+		(pin "4"
+			(uuid "e19f5cfb-41c6-4990-a31a-bb77b1b31826")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_Generic_Conn_02x05_Odd_Even")
+		(at 59.69 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9c78105-de4e-4c5e-8ff7-c9973f4de417")
+		(property "Reference" "J6"
+			(at 74.31 127.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "SWD 2.54mm"
+			(at 74.31 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:PinHeader_2x05_P2.54mm_Vertical"
+			(at 74.31 131.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.31 133.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "61301021121"
+			(at 74.31 135.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth"
+			(at 74.31 137.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "118bf106-88b2-423b-a345-c15edcb97af9")
+		)
+		(pin "10"
+			(uuid "9f5b1b6b-3de5-4724-a900-9630a9a9ef14")
+		)
+		(pin "2"
+			(uuid "39ecb159-9a99-4331-b8fb-5e5bc8fb6b9a")
+		)
+		(pin "3"
+			(uuid "b2d14ba5-1576-4024-bd53-806e7d97a5df")
+		)
+		(pin "4"
+			(uuid "4bfdbfa4-28fd-4b9a-b6ae-2f980baeb004")
+		)
+		(pin "5"
+			(uuid "fcb6fc90-05f3-4485-aa0e-8094eca2bd36")
+		)
+		(pin "6"
+			(uuid "5f4a8b2d-b29e-4074-9a4e-1d1c442c4820")
+		)
+		(pin "7"
+			(uuid "0aef1dd3-450e-4bae-b528-b47cf733516b")
+		)
+		(pin "8"
+			(uuid "8962ce61-4b1c-4284-9faa-221f2446c6d9")
+		)
+		(pin "9"
+			(uuid "a88d2b93-c28e-4def-9893-ec35ecf5c7b5")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Device_R")
+		(at 115.57 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c39461c2-6558-4e49-904c-dcf8be2a614b")
+		(property "Reference" "R21"
+			(at 126.57 37.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 126.57 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:R_0603_1608Metric"
+			(at 126.57 41.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 126.57 43.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747RL"
+			(at 126.57 45.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 126.57 47.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "acee3bc6-103a-4f3a-9258-9e7e6987a3fb")
+		)
+		(pin "2"
+			(uuid "253a8b61-c8e2-444d-a2f3-8c7c39d7bf99")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Device_R")
+		(at 85.09 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cdbcb37c-2a92-41f1-b91d-5b59704e7b82")
+		(property "Reference" "R23"
+			(at 96.09 67.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 96.09 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:R_0603_1608Metric"
+			(at 96.09 71.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.09 73.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-072K2L"
+			(at 96.09 75.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 96.09 77.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c731899c-9304-4024-8ae9-1a9d195b3ccd")
+		)
+		(pin "2"
+			(uuid "4ff2e85e-18a6-455e-b38f-349fc3455976")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Device_R")
+		(at 234.95 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0d1d081-1aa9-4a12-8682-b54087b26e4d")
+		(property "Reference" "R26"
+			(at 245.95 37.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 245.95 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:R_0603_1608Metric"
+			(at 245.95 41.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.95 43.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 245.95 45.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 245.95 47.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abd5f98e-33c0-497d-80f5-e26940b47277")
+		)
+		(pin "2"
+			(uuid "ada4bdd7-548a-45c6-9af6-98251ebf7c1a")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_TestPoint")
+		(at 35.56 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d13db8a5-d280-4280-8423-6f83fe15637d")
+		(property "Reference" "TP6"
+			(at 46.56 202.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "UART_RX"
+			(at 46.56 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:TestPoint_Pad_D1.5mm"
+			(at 46.56 206.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.56 208.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 46.56 210.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 46.56 212.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4be2c079-e616-4b3f-9717-59e7a8b3d6dc")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Device_R")
+		(at 144.78 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d28bbf36-86b4-4a6b-a858-9d6809ad5377")
+		(property "Reference" "R25"
+			(at 155.78 67.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 155.78 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:R_0603_1608Metric"
+			(at 155.78 71.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 155.78 73.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 155.78 75.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 155.78 77.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "681814a5-d488-43f6-8b9d-814dddd6edf3")
+		)
+		(pin "2"
+			(uuid "4b1631ab-a6c6-4275-bcc2-9e1bedcd1ed7")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Mechanical_MountingHole")
+		(at 250.19 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5b571a7-1949-41dc-afbb-5dbc4bf59c17")
+		(property "Reference" "H3"
+			(at 261.19 222.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "M2.5 NPTH"
+			(at 261.19 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:MountingHole_2.7mm_M2.5"
+			(at 261.19 226.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.19 228.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 261.19 230.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 261.19 232.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Mechanical_MountingHole")
+		(at 234.95 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7f7a021-0436-40bb-8144-ba81f3bd4f77")
+		(property "Reference" "H2"
+			(at 245.95 222.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "M2.5 NPTH"
+			(at 245.95 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:MountingHole_2.7mm_M2.5"
+			(at 245.95 226.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.95 228.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 245.95 230.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 245.95 232.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Device_R")
+		(at 85.09 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea1dfaae-99f8-4f52-a523-d4ef8c39c512")
+		(property "Reference" "R20"
+			(at 96.09 37.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 96.09 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:R_0603_1608Metric"
+			(at 96.09 41.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.09 43.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747RL"
+			(at 96.09 45.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 96.09 47.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a7a6f6b-61e1-4da1-a18e-ea73698d807a")
+		)
+		(pin "2"
+			(uuid "949eae59-2e86-479f-9043-f0535aff7ff1")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Mechanical_MountingHole")
+		(at 219.71 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb4733e5-ae13-4af6-9d0d-03d95065f146")
+		(property "Reference" "H1"
+			(at 230.71 222.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "M2.5 NPTH"
+			(at 230.71 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:MountingHole_2.7mm_M2.5"
+			(at 230.71 226.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 230.71 228.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 230.71 230.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 230.71 232.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_TestPoint")
+		(at 35.56 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f521d44f-7f4b-479e-896d-84e38a335e99")
+		(property "Reference" "TP1"
+			(at 46.56 178.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "+5V_SYS"
+			(at 46.56 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:TestPoint_Pad_D1.5mm"
+			(at 46.56 182.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.56 184.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 46.56 186.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 46.56 188.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b0422f6-62f8-4a06-a40f-4dcbbf027b60")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HYDRA:Connector_Generic_Conn_01x10")
+		(at 204.47 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff34e0be-243b-4a56-85f5-567e0936087c")
+		(property "Reference" "J4"
+			(at 215.47 122.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "8 GPIO V2 LOGIC"
+			(at 215.47 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "HYDRA:Molex_Micro-Latch_53253-1070_1x10_P2.00mm_Vertical"
+			(at 215.47 126.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.47 128.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "53253-1070"
+			(at 215.47 130.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 215.47 132.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4f0d8e1-1276-4587-a0ad-92b8ff174a81")
+		)
+		(pin "10"
+			(uuid "f304cd0f-5e75-4d66-91db-b645af9e2dc9")
+		)
+		(pin "2"
+			(uuid "1a51862a-b981-49be-a92e-b56724df5bed")
+		)
+		(pin "3"
+			(uuid "38abfccd-01a9-4da3-8519-a8024df014bf")
+		)
+		(pin "4"
+			(uuid "3f7cdf7c-4826-4f67-9cd4-37780f3c32f7")
+		)
+		(pin "5"
+			(uuid "f8e37883-cf00-4d7a-af99-0fb555035f20")
+		)
+		(pin "6"
+			(uuid "50b3ba9c-b02e-418d-8f96-05e8ac1f66ef")
+		)
+		(pin "7"
+			(uuid "477767f6-366f-461c-9254-bc119797d40b")
+		)
+		(pin "8"
+			(uuid "3088eaad-a36d-457e-8e94-8b8ec1277d96")
+		)
+		(pin "9"
+			(uuid "244640d2-1118-473b-886c-2d54d4ae5d04")
+		)
+		(instances
+			(project "HYDRA_MAIN_V1"
+				(path "/c17a8d71-56ee-4fa5-a8fc-220fb5d91e90/4a5d1b73-343c-48b9-a1e3-5b2ed9973378"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

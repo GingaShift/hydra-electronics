@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "HYDRA")(type "KiCad")(uri "${KIPRJMOD}/libraries/HYDRA.kicad_sym")(options "")(descr "Self contained HYDRA symbols")))
